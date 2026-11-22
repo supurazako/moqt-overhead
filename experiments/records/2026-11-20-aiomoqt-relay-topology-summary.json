@@ -1,0 +1,216 @@
+[
+  {
+    "subscribers": 1,
+    "arms": {
+      "1": {
+        "passed": 6,
+        "metrics": {
+          "idle_relay_pss_mib": {
+            "n": 6,
+            "median": 24.77880859375,
+            "min": 24.7255859375,
+            "max": 24.9765625
+          },
+          "transfer_relay_cpu_ms_per_s": {
+            "n": 6,
+            "median": 43.53024069888809,
+            "min": 41.311359043194756,
+            "max": 49.476839571638095
+          },
+          "slowest_first_object_ms": {
+            "n": 6,
+            "median": 10.0419865,
+            "min": 9.273021,
+            "max": 10.477465
+          },
+          "total_udp_bytes": {
+            "n": 6,
+            "median": 2045858.5,
+            "min": 2045351,
+            "max": 2046634
+          },
+          "inter_relay_udp_bytes": {
+            "n": 6,
+            "median": 0.0,
+            "min": 0,
+            "max": 0
+          }
+        }
+      },
+      "2": {
+        "passed": 6,
+        "metrics": {
+          "idle_relay_pss_mib": {
+            "n": 6,
+            "median": 48.69091796875,
+            "min": 48.404296875,
+            "max": 50.6845703125
+          },
+          "transfer_relay_cpu_ms_per_s": {
+            "n": 6,
+            "median": 85.04590124053925,
+            "min": 79.71050137013087,
+            "max": 90.30858928018466
+          },
+          "slowest_first_object_ms": {
+            "n": 6,
+            "median": 8.909661,
+            "min": 8.091949,
+            "max": 9.359443
+          },
+          "total_udp_bytes": {
+            "n": 6,
+            "median": 3061627.0,
+            "min": 3060574,
+            "max": 3063004
+          },
+          "inter_relay_udp_bytes": {
+            "n": 6,
+            "median": 1016334.0,
+            "min": 1016228,
+            "max": 1016939
+          }
+        }
+      }
+    },
+    "paired_delta": {
+      "idle_relay_pss_mib": {
+        "n": 6,
+        "median": 23.86474609375,
+        "min": 23.6787109375,
+        "max": 25.859375
+      },
+      "transfer_relay_cpu_ms_per_s": {
+        "n": 6,
+        "median": 40.30149855183238,
+        "min": 38.399142326936115,
+        "max": 42.730196274052396
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": -0.8673839999999995,
+        "min": -2.385516000000001,
+        "max": -0.4388820000000013
+      },
+      "total_udp_bytes": {
+        "n": 6,
+        "median": 1015962.0,
+        "min": 1014731,
+        "max": 1017110
+      },
+      "inter_relay_udp_bytes": {
+        "n": 6,
+        "median": 1016334.0,
+        "min": 1016228,
+        "max": 1016939
+      }
+    }
+  },
+  {
+    "subscribers": 4,
+    "arms": {
+      "1": {
+        "passed": 6,
+        "metrics": {
+          "idle_relay_pss_mib": {
+            "n": 6,
+            "median": 23.9169921875,
+            "min": 23.81640625,
+            "max": 24.154296875
+          },
+          "transfer_relay_cpu_ms_per_s": {
+            "n": 6,
+            "median": 70.7740582389822,
+            "min": 65.64694869925826,
+            "max": 74.53761647590967
+          },
+          "slowest_first_object_ms": {
+            "n": 6,
+            "median": 14.1928525,
+            "min": 10.270218,
+            "max": 15.385666
+          },
+          "total_udp_bytes": {
+            "n": 6,
+            "median": 5113166.5,
+            "min": 5112493,
+            "max": 5115286
+          },
+          "inter_relay_udp_bytes": {
+            "n": 6,
+            "median": 0.0,
+            "min": 0,
+            "max": 0
+          }
+        }
+      },
+      "2": {
+        "passed": 6,
+        "metrics": {
+          "idle_relay_pss_mib": {
+            "n": 6,
+            "median": 47.2822265625,
+            "min": 47.130859375,
+            "max": 47.3681640625
+          },
+          "transfer_relay_cpu_ms_per_s": {
+            "n": 6,
+            "median": 112.66134031760106,
+            "min": 101.20963031081097,
+            "max": 119.23319263384602
+          },
+          "slowest_first_object_ms": {
+            "n": 6,
+            "median": 12.4432465,
+            "min": 11.135549,
+            "max": 13.952443
+          },
+          "total_udp_bytes": {
+            "n": 6,
+            "median": 6129058.5,
+            "min": 6127982,
+            "max": 6130937
+          },
+          "inter_relay_udp_bytes": {
+            "n": 6,
+            "median": 1016206.5,
+            "min": 1016025,
+            "max": 1016664
+          }
+        }
+      }
+    },
+    "paired_delta": {
+      "idle_relay_pss_mib": {
+        "n": 6,
+        "median": 23.35107421875,
+        "min": 23.2001953125,
+        "max": 23.44921875
+      },
+      "transfer_relay_cpu_ms_per_s": {
+        "n": 6,
+        "median": 41.70837115534145,
+        "min": 35.562681611552705,
+        "max": 45.22402541613657
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": -1.6770195,
+        "min": -3.2038080000000004,
+        "max": 2.194148
+      },
+      "total_udp_bytes": {
+        "n": 6,
+        "median": 1016099.5,
+        "min": 1012873,
+        "max": 1018022
+      },
+      "inter_relay_udp_bytes": {
+        "n": 6,
+        "median": 1016206.5,
+        "min": 1016025,
+        "max": 1016664
+      }
+    }
+  }
+]

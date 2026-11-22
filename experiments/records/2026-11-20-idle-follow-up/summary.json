@@ -1,0 +1,116 @@
+{
+  "aiomoqt": {
+    "cpu_pss_kib_delta": {
+      "n": 6,
+      "median": 5387.5,
+      "low": 5207,
+      "high": 5407
+    },
+    "cpu_cpu_ms_per_s_delta": {
+      "n": 6,
+      "median": -0.20919963976282552,
+      "low": -0.8650724999518418,
+      "high": 1.1641250423881004
+    },
+    "startup_pss_kib_delta": {
+      "n": 12,
+      "median": 5373.0,
+      "low": 5317,
+      "high": 5408
+    },
+    "startup_cpu_ms_per_s_delta": {
+      "n": 12,
+      "median": 0.07104043043523633,
+      "low": -0.06763769811397591,
+      "high": 0.23686466369575365
+    },
+    "setup_ms": {
+      "n": 12,
+      "median": 1.7205599999999999,
+      "low": 1.001014,
+      "high": 1.881852
+    },
+    "udp_bytes_delta": {
+      "n": 12,
+      "median": 83.5,
+      "low": 13,
+      "high": 177
+    }
+  },
+  "imquic": {
+    "cpu_pss_kib_delta": {
+      "n": 6,
+      "median": 185.5,
+      "low": 114,
+      "high": 276
+    },
+    "cpu_cpu_ms_per_s_delta": {
+      "n": 6,
+      "median": 0.000968776385288056,
+      "low": -0.11918971553534313,
+      "high": 0.09830676769305735
+    },
+    "startup_pss_kib_delta": {
+      "n": 12,
+      "median": 343.0,
+      "low": 297,
+      "high": 359
+    },
+    "startup_cpu_ms_per_s_delta": {
+      "n": 12,
+      "median": 0.010691252529847622,
+      "low": -0.04075480618612676,
+      "high": 0.06666088047954233
+    },
+    "setup_ms": {
+      "n": 12,
+      "median": 0.4951565,
+      "low": 0.41075900000000004,
+      "high": 0.545891
+    },
+    "udp_bytes_delta": {
+      "n": 12,
+      "median": 140.5,
+      "low": -12,
+      "high": 196
+    }
+  },
+  "moqtail": {
+    "cpu_pss_kib_delta": {
+      "n": 6,
+      "median": 7256.5,
+      "low": 7052,
+      "high": 7355
+    },
+    "cpu_cpu_ms_per_s_delta": {
+      "n": 6,
+      "median": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "startup_pss_kib_delta": {
+      "n": 12,
+      "median": 7716.5,
+      "low": 7618,
+      "high": 7858
+    },
+    "startup_cpu_ms_per_s_delta": {
+      "n": 12,
+      "median": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "setup_ms": {
+      "n": 12,
+      "median": 1.2584255,
+      "low": 1.0777370000000002,
+      "high": 2.146738
+    },
+    "udp_bytes_delta": {
+      "n": 12,
+      "median": 155.5,
+      "low": 105,
+      "high": 156
+    }
+  }
+}

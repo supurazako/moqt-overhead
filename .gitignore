@@ -1,0 +1,11 @@
+.scratch/
+.venv/
+__pycache__/
+*.pem
+*.key
+*.pcap*
+*.qlog*
+
+# Unpublished editorial drafts and issue preparation
+reports/blog/moqt-endpoint-footprints.ja.md
+reports/imquic/

@@ -1,0 +1,9 @@
+relay,case,outcome,alpn,objects_received,upstream_streams,downstream_streams
+aiomoqt,setup-only,pass,moqt-22,,,
+aiomoqt,data-subgroup-basic,pass,moqt-22,15,3,3
+moqtail,setup-only,pass,moqt-22,,,
+moqtail,data-subgroup-basic,pass,moqt-22,15,3,3
+imquic,setup-only,pass,moqt-22,,,
+imquic,data-subgroup-basic,pass,moqt-22,15,3,3
+mlmrel,setup-only,pass,moqt-22,,,
+mlmrel,data-subgroup-basic,pass,moqt-22,15,3,3

@@ -1,0 +1,11 @@
+{
+  "planned_trials": 36,
+  "independent_trials_per_implementation_role": 6,
+  "seed": 22023,
+  "statistic": "final transfer-window sample per trial",
+  "sha256": {
+    "experiments/endpoints/memory-categories.py": "040eb3dd92308d07f74a0667399e4a04d4a671613857a0a885a6cc21a1a52248",
+    "experiments/endpoints/measure.py": "d3bea0eefa6a01dca07388db16f23bb870f9ec7e4e06cbac81183847d843042d"
+  },
+  "reference_binary_provenance": "2026-11-22-endpoint-provenance.json"
+}

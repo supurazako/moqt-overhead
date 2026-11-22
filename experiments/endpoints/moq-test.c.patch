@@ -1,0 +1,19 @@
+--- upstream/moq-test.c
++++ measured/moq-test.c
+@@ -342,6 +342,7 @@
+ }
+ 
+ static void imquic_demo_publish_namespace_accepted(imquic_connection *conn, uint64_t request_id, imquic_moq_request_parameters *parameters) {
++	IMQUIC_PRINT("BENCH_READY\n"); fflush(stdout);
+ 	IMQUIC_LOG(IMQUIC_LOG_INFO, "[%s] Publish Namespace '%"SCNu64"' accepted\n",
+ 		imquic_get_connection_name(conn), request_id);
+ }
+@@ -957,7 +958,7 @@
+ 		IMQUIC_CONFIG_INIT,
+ 		IMQUIC_CONFIG_TLS_CERT, options.cert_pem,
+ 		IMQUIC_CONFIG_TLS_KEY, options.cert_key,
+-		IMQUIC_CONFIG_TLS_NO_VERIFY, TRUE,
++		IMQUIC_CONFIG_TLS_NO_VERIFY, FALSE,
+ 		IMQUIC_CONFIG_LOCAL_BIND, options.ip,
+ 		IMQUIC_CONFIG_LOCAL_PORT, options.port,
+ 		IMQUIC_CONFIG_REMOTE_HOST, options.remote_host,

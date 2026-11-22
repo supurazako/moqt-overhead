@@ -1,0 +1,4 @@
+aiomoqt==0.14.1
+aiopquic==0.7.1
+certifi==2026.10.23
+sortedcontainers==2.4.0

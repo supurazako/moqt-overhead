@@ -1,0 +1,990 @@
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003676028, "cpu_ns": 0, "rss_kib": 15204, "pss_kib": 12916}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005513416, "cpu_ns": 2893902, "rss_kib": 41096, "pss_kib": 26412}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007295460, "cpu_ns": 3233096, "rss_kib": 41048, "pss_kib": 26364}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "role": "publisher", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003810929, "cpu_ns": 0, "rss_kib": 15432, "pss_kib": 13144}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005703240, "cpu_ns": 3108549, "rss_kib": 41116, "pss_kib": 26434}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007445941, "cpu_ns": 3062785, "rss_kib": 41064, "pss_kib": 26382}
+{"relay": "moqtail", "subscriptions": 1, "block": 1, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1001418551, "cpu_ns": 381525, "rss_kib": 10512, "pss_kib": 3609}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003303779, "cpu_ns": 2746631, "rss_kib": 41248, "pss_kib": 26515}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005096143, "cpu_ns": 1678336, "rss_kib": 41220, "pss_kib": 26542}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "role": "publisher", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002046138, "cpu_ns": 355247, "rss_kib": 10652, "pss_kib": 3746}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003950411, "cpu_ns": 2694914, "rss_kib": 41264, "pss_kib": 26533}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005722718, "cpu_ns": 2997422, "rss_kib": 41236, "pss_kib": 26559}
+{"relay": "imquic", "subscriptions": 1, "block": 1, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002916839, "cpu_ns": 3062994, "rss_kib": 38896, "pss_kib": 25646}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004726566, "cpu_ns": 3092879, "rss_kib": 41168, "pss_kib": 25453}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006508570, "cpu_ns": 3108002, "rss_kib": 41028, "pss_kib": 25364}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "role": "publisher", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002830195, "cpu_ns": 2848250, "rss_kib": 38916, "pss_kib": 25664}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004559601, "cpu_ns": 2254949, "rss_kib": 41184, "pss_kib": 25467}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006326939, "cpu_ns": 2834844, "rss_kib": 41044, "pss_kib": 25378}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 1, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002951835, "cpu_ns": 3216800, "rss_kib": 38864, "pss_kib": 25454}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004789624, "cpu_ns": 3126077, "rss_kib": 41204, "pss_kib": 25487}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006534299, "cpu_ns": 2886826, "rss_kib": 41268, "pss_kib": 25485}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "role": "publisher", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002999942, "cpu_ns": 3203497, "rss_kib": 38884, "pss_kib": 25475}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004812194, "cpu_ns": 2879042, "rss_kib": 41220, "pss_kib": 25503}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006653279, "cpu_ns": 2916387, "rss_kib": 41284, "pss_kib": 25504}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 6, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002809356, "cpu_ns": 0, "rss_kib": 15132, "pss_kib": 12789}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004886583, "cpu_ns": 3401842, "rss_kib": 41152, "pss_kib": 26538}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006838315, "cpu_ns": 2493486, "rss_kib": 41112, "pss_kib": 26595}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "role": "publisher", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003803946, "cpu_ns": 0, "rss_kib": 15344, "pss_kib": 13002}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1006163121, "cpu_ns": 3075880, "rss_kib": 41172, "pss_kib": 26560}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007946869, "cpu_ns": 2920898, "rss_kib": 41128, "pss_kib": 26611}
+{"relay": "moqtail", "subscriptions": 1, "block": 6, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002087280, "cpu_ns": 423744, "rss_kib": 10668, "pss_kib": 3596}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003964092, "cpu_ns": 3237741, "rss_kib": 41040, "pss_kib": 26537}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005721540, "cpu_ns": 1777944, "rss_kib": 41104, "pss_kib": 26531}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "role": "publisher", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002058284, "cpu_ns": 321332, "rss_kib": 10808, "pss_kib": 3736}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003934605, "cpu_ns": 2742188, "rss_kib": 41056, "pss_kib": 26556}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005690872, "cpu_ns": 2868117, "rss_kib": 41120, "pss_kib": 26550}
+{"relay": "imquic", "subscriptions": 1, "block": 6, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002110291, "cpu_ns": 432081, "rss_kib": 10676, "pss_kib": 3628}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003985120, "cpu_ns": 3075039, "rss_kib": 41068, "pss_kib": 26380}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005765652, "cpu_ns": 2616729, "rss_kib": 41080, "pss_kib": 26411}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "role": "publisher", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002460766, "cpu_ns": 368321, "rss_kib": 10692, "pss_kib": 3644}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004313553, "cpu_ns": 2472696, "rss_kib": 41100, "pss_kib": 26412}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006155440, "cpu_ns": 2093233, "rss_kib": 41112, "pss_kib": 26445}
+{"relay": "imquic", "subscriptions": 3, "block": 5, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003712220, "cpu_ns": 0, "rss_kib": 14976, "pss_kib": 12872}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005578102, "cpu_ns": 3373027, "rss_kib": 41196, "pss_kib": 26510}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007321193, "cpu_ns": 3475347, "rss_kib": 40996, "pss_kib": 26368}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "role": "publisher", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003737956, "cpu_ns": 0, "rss_kib": 15212, "pss_kib": 13108}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005611151, "cpu_ns": 3580698, "rss_kib": 41232, "pss_kib": 26546}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007396963, "cpu_ns": 3582482, "rss_kib": 41032, "pss_kib": 26406}
+{"relay": "moqtail", "subscriptions": 3, "block": 5, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003111094, "cpu_ns": 3097125, "rss_kib": 38444, "pss_kib": 25241}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004913928, "cpu_ns": 2155761, "rss_kib": 41060, "pss_kib": 25411}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006694991, "cpu_ns": 3094915, "rss_kib": 41028, "pss_kib": 25357}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "role": "publisher", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002987242, "cpu_ns": 2960469, "rss_kib": 38524, "pss_kib": 25321}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004848355, "cpu_ns": 3167589, "rss_kib": 41092, "pss_kib": 25443}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006911867, "cpu_ns": 3015696, "rss_kib": 41060, "pss_kib": 25389}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 5, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002077692, "cpu_ns": 410629, "rss_kib": 10420, "pss_kib": 3597}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003968230, "cpu_ns": 3063006, "rss_kib": 41076, "pss_kib": 26514}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005716802, "cpu_ns": 3167412, "rss_kib": 41084, "pss_kib": 26569}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "role": "publisher", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002084684, "cpu_ns": 408227, "rss_kib": 10564, "pss_kib": 3741}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003930728, "cpu_ns": 3071591, "rss_kib": 41100, "pss_kib": 26538}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005856342, "cpu_ns": 1746352, "rss_kib": 41108, "pss_kib": 26595}
+{"relay": "imquic", "subscriptions": 2, "block": 6, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002947440, "cpu_ns": 2978575, "rss_kib": 38848, "pss_kib": 25393}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004826786, "cpu_ns": 3172721, "rss_kib": 41348, "pss_kib": 25486}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006573004, "cpu_ns": 3173028, "rss_kib": 41312, "pss_kib": 25436}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "role": "publisher", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002987254, "cpu_ns": 3137352, "rss_kib": 38900, "pss_kib": 25446}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004843457, "cpu_ns": 3066273, "rss_kib": 41372, "pss_kib": 25513}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006597069, "cpu_ns": 3056716, "rss_kib": 41336, "pss_kib": 25463}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 6, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003677156, "cpu_ns": 0, "rss_kib": 15028, "pss_kib": 12776}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005575098, "cpu_ns": 3162589, "rss_kib": 41276, "pss_kib": 26721}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007357543, "cpu_ns": 3205730, "rss_kib": 41028, "pss_kib": 26444}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "role": "publisher", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003733913, "cpu_ns": 0, "rss_kib": 15340, "pss_kib": 13088}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005660638, "cpu_ns": 3086694, "rss_kib": 41304, "pss_kib": 26749}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007441731, "cpu_ns": 3059577, "rss_kib": 41052, "pss_kib": 26468}
+{"relay": "moqtail", "subscriptions": 2, "block": 6, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002096248, "cpu_ns": 388026, "rss_kib": 10744, "pss_kib": 3638}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004028563, "cpu_ns": 1760973, "rss_kib": 41108, "pss_kib": 26406}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005791202, "cpu_ns": 3230706, "rss_kib": 41116, "pss_kib": 26375}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "role": "publisher", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1001707659, "cpu_ns": 412904, "rss_kib": 10832, "pss_kib": 3726}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003459216, "cpu_ns": 3000363, "rss_kib": 41124, "pss_kib": 26424}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005392364, "cpu_ns": 3049347, "rss_kib": 41132, "pss_kib": 26391}
+{"relay": "imquic", "subscriptions": 1, "block": 2, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003711249, "cpu_ns": 0, "rss_kib": 15172, "pss_kib": 12950}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005560379, "cpu_ns": 3344285, "rss_kib": 41208, "pss_kib": 26517}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007301367, "cpu_ns": 3209077, "rss_kib": 40980, "pss_kib": 26363}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "role": "publisher", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003690740, "cpu_ns": 0, "rss_kib": 15496, "pss_kib": 13274}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005574014, "cpu_ns": 3095541, "rss_kib": 41224, "pss_kib": 26533}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007319310, "cpu_ns": 3098377, "rss_kib": 40996, "pss_kib": 26381}
+{"relay": "moqtail", "subscriptions": 1, "block": 2, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002940216, "cpu_ns": 3010418, "rss_kib": 38440, "pss_kib": 25268}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004780109, "cpu_ns": 1754539, "rss_kib": 41196, "pss_kib": 25696}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006510367, "cpu_ns": 3237820, "rss_kib": 41044, "pss_kib": 25382}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "role": "publisher", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002924991, "cpu_ns": 4006806, "rss_kib": 38460, "pss_kib": 25288}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004788889, "cpu_ns": 3853796, "rss_kib": 41212, "pss_kib": 25712}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006551146, "cpu_ns": 3792081, "rss_kib": 41060, "pss_kib": 25398}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 2, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002107351, "cpu_ns": 378070, "rss_kib": 10692, "pss_kib": 3576}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004028576, "cpu_ns": 3004431, "rss_kib": 41316, "pss_kib": 26728}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005894999, "cpu_ns": 2651840, "rss_kib": 41012, "pss_kib": 26367}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "role": "publisher", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002127689, "cpu_ns": 386055, "rss_kib": 10692, "pss_kib": 3576}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003989694, "cpu_ns": 1847614, "rss_kib": 41320, "pss_kib": 26734}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005758654, "cpu_ns": 2987129, "rss_kib": 41016, "pss_kib": 26371}
+{"relay": "imquic", "subscriptions": 0, "block": 1, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003986305, "cpu_ns": 0, "rss_kib": 15228, "pss_kib": 12953}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005968054, "cpu_ns": 3410257, "rss_kib": 41092, "pss_kib": 26554}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007882326, "cpu_ns": 3184361, "rss_kib": 41064, "pss_kib": 26588}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "role": "publisher", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003714768, "cpu_ns": 709020, "rss_kib": 15228, "pss_kib": 12953}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005639379, "cpu_ns": 2567694, "rss_kib": 41096, "pss_kib": 26558}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007358577, "cpu_ns": 2662584, "rss_kib": 41068, "pss_kib": 26592}
+{"relay": "moqtail", "subscriptions": 0, "block": 1, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002961529, "cpu_ns": 3248392, "rss_kib": 38468, "pss_kib": 25253}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004721934, "cpu_ns": 2700485, "rss_kib": 41092, "pss_kib": 25409}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006413489, "cpu_ns": 3276023, "rss_kib": 41044, "pss_kib": 25456}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "role": "publisher", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002939369, "cpu_ns": 3202650, "rss_kib": 38468, "pss_kib": 25253}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004671640, "cpu_ns": 1973991, "rss_kib": 41096, "pss_kib": 25413}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006371741, "cpu_ns": 2788668, "rss_kib": 41048, "pss_kib": 25460}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 1, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002099367, "cpu_ns": 404779, "rss_kib": 10648, "pss_kib": 3589}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003935623, "cpu_ns": 3233984, "rss_kib": 41172, "pss_kib": 26455}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005718580, "cpu_ns": 3887509, "rss_kib": 41176, "pss_kib": 26471}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "role": "publisher", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002055185, "cpu_ns": 365285, "rss_kib": 10796, "pss_kib": 3737}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003792856, "cpu_ns": 3437725, "rss_kib": 41216, "pss_kib": 26499}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005492477, "cpu_ns": 3179048, "rss_kib": 41220, "pss_kib": 26515}
+{"relay": "imquic", "subscriptions": 4, "block": 5, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002918490, "cpu_ns": 3085071, "rss_kib": 38428, "pss_kib": 25231}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004749056, "cpu_ns": 2970239, "rss_kib": 41136, "pss_kib": 25404}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006459336, "cpu_ns": 3305348, "rss_kib": 40948, "pss_kib": 25342}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "role": "publisher", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002932736, "cpu_ns": 3294667, "rss_kib": 38532, "pss_kib": 25335}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004737363, "cpu_ns": 3115763, "rss_kib": 41180, "pss_kib": 25451}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006485284, "cpu_ns": 3017720, "rss_kib": 43040, "pss_kib": 27434}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 5, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003811634, "cpu_ns": 0, "rss_kib": 15468, "pss_kib": 13182}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005662277, "cpu_ns": 2850304, "rss_kib": 41320, "pss_kib": 26755}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007416209, "cpu_ns": 3137144, "rss_kib": 40912, "pss_kib": 26383}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "role": "publisher", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003844075, "cpu_ns": 0, "rss_kib": 15720, "pss_kib": 13434}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005706520, "cpu_ns": 3082211, "rss_kib": 41368, "pss_kib": 26803}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007429975, "cpu_ns": 3089541, "rss_kib": 40956, "pss_kib": 26427}
+{"relay": "moqtail", "subscriptions": 4, "block": 5, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003818047, "cpu_ns": 0, "rss_kib": 15016, "pss_kib": 12872}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005701702, "cpu_ns": 2362742, "rss_kib": 41152, "pss_kib": 26622}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007500308, "cpu_ns": 2932558, "rss_kib": 41080, "pss_kib": 26534}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "role": "publisher", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003799740, "cpu_ns": 0, "rss_kib": 15544, "pss_kib": 13400}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005677103, "cpu_ns": 3054330, "rss_kib": 41176, "pss_kib": 26646}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007423551, "cpu_ns": 2815746, "rss_kib": 41108, "pss_kib": 26562}
+{"relay": "moqtail", "subscriptions": 2, "block": 2, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002910968, "cpu_ns": 1615380, "rss_kib": 38444, "pss_kib": 25316}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004721005, "cpu_ns": 3035232, "rss_kib": 41200, "pss_kib": 25559}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006459738, "cpu_ns": 3186102, "rss_kib": 41192, "pss_kib": 25512}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "role": "publisher", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002969798, "cpu_ns": 1752109, "rss_kib": 38496, "pss_kib": 25369}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004789324, "cpu_ns": 3087489, "rss_kib": 41224, "pss_kib": 25583}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006545330, "cpu_ns": 3063473, "rss_kib": 41216, "pss_kib": 25538}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 2, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1001659627, "cpu_ns": 293600, "rss_kib": 10620, "pss_kib": 3600}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003634142, "cpu_ns": 3093052, "rss_kib": 41148, "pss_kib": 26453}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005561349, "cpu_ns": 3218330, "rss_kib": 41340, "pss_kib": 26646}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "role": "publisher", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002087960, "cpu_ns": 310221, "rss_kib": 10764, "pss_kib": 3745}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003972797, "cpu_ns": 3109364, "rss_kib": 41172, "pss_kib": 26478}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005730265, "cpu_ns": 3086438, "rss_kib": 41364, "pss_kib": 26670}
+{"relay": "imquic", "subscriptions": 2, "block": 2, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003706318, "cpu_ns": 0, "rss_kib": 14940, "pss_kib": 12802}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005618837, "cpu_ns": 3048719, "rss_kib": 41304, "pss_kib": 26505}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007369092, "cpu_ns": 3173250, "rss_kib": 41180, "pss_kib": 26447}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "role": "publisher", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003592765, "cpu_ns": 0, "rss_kib": 15392, "pss_kib": 13254}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005499363, "cpu_ns": 3266913, "rss_kib": 41328, "pss_kib": 26529}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007261600, "cpu_ns": 3253052, "rss_kib": 41204, "pss_kib": 26471}
+{"relay": "moqtail", "subscriptions": 2, "block": 4, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002101938, "cpu_ns": 344378, "rss_kib": 10696, "pss_kib": 3546}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003992055, "cpu_ns": 1858920, "rss_kib": 41132, "pss_kib": 26417}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005775913, "cpu_ns": 2771287, "rss_kib": 41328, "pss_kib": 26692}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "role": "publisher", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002090756, "cpu_ns": 407575, "rss_kib": 10804, "pss_kib": 3654}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003981244, "cpu_ns": 2134737, "rss_kib": 41156, "pss_kib": 26441}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005750745, "cpu_ns": 2264427, "rss_kib": 41352, "pss_kib": 26719}
+{"relay": "imquic", "subscriptions": 2, "block": 4, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002978015, "cpu_ns": 3167339, "rss_kib": 40460, "pss_kib": 27329}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004778234, "cpu_ns": 3278055, "rss_kib": 41004, "pss_kib": 25441}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006495497, "cpu_ns": 2807150, "rss_kib": 41140, "pss_kib": 25645}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "role": "publisher", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003685850, "cpu_ns": 3228601, "rss_kib": 40516, "pss_kib": 27385}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1006245420, "cpu_ns": 3020925, "rss_kib": 41028, "pss_kib": 25465}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1008544322, "cpu_ns": 3063418, "rss_kib": 41168, "pss_kib": 25673}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 4, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003273970, "cpu_ns": 0, "rss_kib": 15032, "pss_kib": 12735}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005498623, "cpu_ns": 3142004, "rss_kib": 41052, "pss_kib": 26453}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007542187, "cpu_ns": 3378653, "rss_kib": 41232, "pss_kib": 26707}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "role": "publisher", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003725243, "cpu_ns": 611025, "rss_kib": 15032, "pss_kib": 12735}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005587278, "cpu_ns": 3511106, "rss_kib": 41056, "pss_kib": 26427}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007322575, "cpu_ns": 3421135, "rss_kib": 41236, "pss_kib": 26682}
+{"relay": "moqtail", "subscriptions": 0, "block": 5, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002050593, "cpu_ns": 402434, "rss_kib": 10488, "pss_kib": 3582}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003932475, "cpu_ns": 3022109, "rss_kib": 41032, "pss_kib": 26585}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005695694, "cpu_ns": 3032768, "rss_kib": 41116, "pss_kib": 26473}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "role": "publisher", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002021909, "cpu_ns": 373982, "rss_kib": 10488, "pss_kib": 3582}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003864817, "cpu_ns": 3018592, "rss_kib": 41036, "pss_kib": 26591}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005642503, "cpu_ns": 1691911, "rss_kib": 41120, "pss_kib": 26477}
+{"relay": "imquic", "subscriptions": 0, "block": 5, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002988507, "cpu_ns": 3303790, "rss_kib": 38912, "pss_kib": 25667}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005008167, "cpu_ns": 3116342, "rss_kib": 41092, "pss_kib": 25393}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006981920, "cpu_ns": 3074143, "rss_kib": 40960, "pss_kib": 25327}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "role": "publisher", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002654586, "cpu_ns": 3349180, "rss_kib": 38912, "pss_kib": 25666}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004098428, "cpu_ns": 3412715, "rss_kib": 41096, "pss_kib": 25397}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005429469, "cpu_ns": 2998382, "rss_kib": 40964, "pss_kib": 25330}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 5, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002134959, "cpu_ns": 415790, "rss_kib": 10420, "pss_kib": 3594}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003983909, "cpu_ns": 3046916, "rss_kib": 41352, "pss_kib": 26480}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005752870, "cpu_ns": 3185662, "rss_kib": 41228, "pss_kib": 26422}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "role": "publisher", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002260054, "cpu_ns": 394602, "rss_kib": 10420, "pss_kib": 3594}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004103603, "cpu_ns": 3046053, "rss_kib": 41356, "pss_kib": 26484}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005848879, "cpu_ns": 3055074, "rss_kib": 41232, "pss_kib": 26428}
+{"relay": "imquic", "subscriptions": 0, "block": 3, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002776682, "cpu_ns": 3254506, "rss_kib": 38444, "pss_kib": 25239}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004542977, "cpu_ns": 2977453, "rss_kib": 41076, "pss_kib": 25394}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006202963, "cpu_ns": 3039698, "rss_kib": 41028, "pss_kib": 25363}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "role": "publisher", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002990231, "cpu_ns": 3031999, "rss_kib": 38444, "pss_kib": 25239}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004825004, "cpu_ns": 3379647, "rss_kib": 41080, "pss_kib": 25398}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006577674, "cpu_ns": 2986112, "rss_kib": 41032, "pss_kib": 25367}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 3, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1004226395, "cpu_ns": 0, "rss_kib": 15084, "pss_kib": 12788}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1006064615, "cpu_ns": 2801600, "rss_kib": 41040, "pss_kib": 26414}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007829157, "cpu_ns": 3166514, "rss_kib": 41160, "pss_kib": 26464}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "role": "publisher", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003756773, "cpu_ns": 708249, "rss_kib": 15084, "pss_kib": 12788}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005904082, "cpu_ns": 3281903, "rss_kib": 41044, "pss_kib": 26420}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007668173, "cpu_ns": 3259606, "rss_kib": 41164, "pss_kib": 26468}
+{"relay": "moqtail", "subscriptions": 0, "block": 3, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002204912, "cpu_ns": 358170, "rss_kib": 10676, "pss_kib": 3577}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004197441, "cpu_ns": 3238188, "rss_kib": 41120, "pss_kib": 26440}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006150345, "cpu_ns": 3714501, "rss_kib": 41104, "pss_kib": 26584}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "role": "publisher", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002044381, "cpu_ns": 378748, "rss_kib": 10760, "pss_kib": 3661}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003910984, "cpu_ns": 2917703, "rss_kib": 41164, "pss_kib": 26484}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005682158, "cpu_ns": 2903424, "rss_kib": 41148, "pss_kib": 26628}
+{"relay": "imquic", "subscriptions": 4, "block": 1, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003753881, "cpu_ns": 0, "rss_kib": 15564, "pss_kib": 13227}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005604284, "cpu_ns": 3097379, "rss_kib": 41020, "pss_kib": 26539}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007463633, "cpu_ns": 3196038, "rss_kib": 41024, "pss_kib": 26583}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "role": "publisher", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003938315, "cpu_ns": 0, "rss_kib": 15836, "pss_kib": 13499}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005790761, "cpu_ns": 2025514, "rss_kib": 41064, "pss_kib": 26551}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007561134, "cpu_ns": 1916773, "rss_kib": 41132, "pss_kib": 26659}
+{"relay": "moqtail", "subscriptions": 4, "block": 1, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003060177, "cpu_ns": 3138227, "rss_kib": 38488, "pss_kib": 25359}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004978807, "cpu_ns": 3090930, "rss_kib": 41072, "pss_kib": 25478}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006703484, "cpu_ns": 2628340, "rss_kib": 41132, "pss_kib": 25494}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "role": "publisher", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002937004, "cpu_ns": 3292855, "rss_kib": 38592, "pss_kib": 25463}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004758993, "cpu_ns": 2844645, "rss_kib": 41116, "pss_kib": 25525}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006555916, "cpu_ns": 1798182, "rss_kib": 41176, "pss_kib": 25539}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 1, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002154138, "cpu_ns": 424117, "rss_kib": 10648, "pss_kib": 3568}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004203482, "cpu_ns": 3121495, "rss_kib": 41316, "pss_kib": 26736}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006107686, "cpu_ns": 2962717, "rss_kib": 41044, "pss_kib": 26373}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "role": "publisher", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002092102, "cpu_ns": 416580, "rss_kib": 10728, "pss_kib": 3648}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004000153, "cpu_ns": 1742956, "rss_kib": 41348, "pss_kib": 26768}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005800001, "cpu_ns": 1845881, "rss_kib": 41076, "pss_kib": 26405}
+{"relay": "imquic", "subscriptions": 3, "block": 3, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002976529, "cpu_ns": 2812463, "rss_kib": 38952, "pss_kib": 25443}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004829567, "cpu_ns": 3137752, "rss_kib": 41184, "pss_kib": 25482}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006542131, "cpu_ns": 2765104, "rss_kib": 41224, "pss_kib": 25476}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "role": "publisher", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002993299, "cpu_ns": 3189253, "rss_kib": 39028, "pss_kib": 25519}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004868728, "cpu_ns": 3006115, "rss_kib": 41216, "pss_kib": 25514}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006635374, "cpu_ns": 2618962, "rss_kib": 41256, "pss_kib": 25508}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 3, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1004114016, "cpu_ns": 0, "rss_kib": 15476, "pss_kib": 13239}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1006151368, "cpu_ns": 3242674, "rss_kib": 41184, "pss_kib": 26607}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1008079597, "cpu_ns": 2605237, "rss_kib": 41104, "pss_kib": 26558}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "role": "publisher", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003702868, "cpu_ns": 0, "rss_kib": 15620, "pss_kib": 13383}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005574120, "cpu_ns": 2675289, "rss_kib": 41216, "pss_kib": 26639}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007319536, "cpu_ns": 3151219, "rss_kib": 41136, "pss_kib": 26590}
+{"relay": "moqtail", "subscriptions": 3, "block": 3, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002890739, "cpu_ns": 2435888, "rss_kib": 40524, "pss_kib": 27312}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004766039, "cpu_ns": 3324094, "rss_kib": 41080, "pss_kib": 25418}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006461912, "cpu_ns": 2825305, "rss_kib": 41156, "pss_kib": 25396}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "role": "publisher", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002931686, "cpu_ns": 3205029, "rss_kib": 40628, "pss_kib": 27416}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004741423, "cpu_ns": 2862898, "rss_kib": 41124, "pss_kib": 25462}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006472743, "cpu_ns": 1860878, "rss_kib": 41200, "pss_kib": 25440}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 2, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002055196, "cpu_ns": 420015, "rss_kib": 10524, "pss_kib": 3598}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003934583, "cpu_ns": 3094260, "rss_kib": 41236, "pss_kib": 26653}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005665161, "cpu_ns": 3197723, "rss_kib": 41044, "pss_kib": 26401}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "role": "publisher", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1001844982, "cpu_ns": 319960, "rss_kib": 10684, "pss_kib": 3758}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003913513, "cpu_ns": 3504551, "rss_kib": 41280, "pss_kib": 26697}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005954162, "cpu_ns": 3235726, "rss_kib": 41088, "pss_kib": 26445}
+{"relay": "imquic", "subscriptions": 4, "block": 2, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003791255, "cpu_ns": 0, "rss_kib": 14996, "pss_kib": 12852}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005660102, "cpu_ns": 3146632, "rss_kib": 41308, "pss_kib": 26771}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007413563, "cpu_ns": 3148745, "rss_kib": 41028, "pss_kib": 26432}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "role": "publisher", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003207534, "cpu_ns": 0, "rss_kib": 15584, "pss_kib": 13440}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005110315, "cpu_ns": 2887929, "rss_kib": 41356, "pss_kib": 26819}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006864808, "cpu_ns": 2995496, "rss_kib": 43116, "pss_kib": 28520}
+{"relay": "moqtail", "subscriptions": 4, "block": 2, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002187406, "cpu_ns": 418224, "rss_kib": 10512, "pss_kib": 3610}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004067885, "cpu_ns": 3184127, "rss_kib": 41280, "pss_kib": 26652}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005789517, "cpu_ns": 1950987, "rss_kib": 40940, "pss_kib": 26384}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "role": "publisher", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002085072, "cpu_ns": 409921, "rss_kib": 10656, "pss_kib": 3754}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003938450, "cpu_ns": 2858741, "rss_kib": 41304, "pss_kib": 26676}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005699415, "cpu_ns": 3045394, "rss_kib": 40964, "pss_kib": 26410}
+{"relay": "imquic", "subscriptions": 2, "block": 3, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003729502, "cpu_ns": 0, "rss_kib": 15148, "pss_kib": 12914}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005606133, "cpu_ns": 3185032, "rss_kib": 41164, "pss_kib": 26422}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007341961, "cpu_ns": 2866945, "rss_kib": 41092, "pss_kib": 26445}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "role": "publisher", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003765676, "cpu_ns": 0, "rss_kib": 15452, "pss_kib": 13218}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005645884, "cpu_ns": 3044306, "rss_kib": 41192, "pss_kib": 26452}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007434261, "cpu_ns": 2909898, "rss_kib": 41116, "pss_kib": 26469}
+{"relay": "moqtail", "subscriptions": 2, "block": 3, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003137334, "cpu_ns": 3111158, "rss_kib": 38412, "pss_kib": 25246}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005310821, "cpu_ns": 3142784, "rss_kib": 41096, "pss_kib": 25394}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007330841, "cpu_ns": 2797321, "rss_kib": 41044, "pss_kib": 25436}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "role": "publisher", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003231297, "cpu_ns": 3214817, "rss_kib": 38464, "pss_kib": 25298}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005084735, "cpu_ns": 1690550, "rss_kib": 41120, "pss_kib": 25418}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006826415, "cpu_ns": 3069362, "rss_kib": 41068, "pss_kib": 25460}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 3, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002082119, "cpu_ns": 384000, "rss_kib": 10616, "pss_kib": 3535}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003802399, "cpu_ns": 3320324, "rss_kib": 41280, "pss_kib": 26523}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005448690, "cpu_ns": 2109224, "rss_kib": 41288, "pss_kib": 26488}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "role": "publisher", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002047813, "cpu_ns": 294924, "rss_kib": 10724, "pss_kib": 3642}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003876666, "cpu_ns": 3025722, "rss_kib": 41296, "pss_kib": 26537}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005626390, "cpu_ns": 2674494, "rss_kib": 41304, "pss_kib": 26502}
+{"relay": "imquic", "subscriptions": 1, "block": 4, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002535096, "cpu_ns": 2523813, "rss_kib": 40440, "pss_kib": 27282}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004333551, "cpu_ns": 3191595, "rss_kib": 41032, "pss_kib": 25379}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006081101, "cpu_ns": 2570863, "rss_kib": 40992, "pss_kib": 25327}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "role": "publisher", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002919466, "cpu_ns": 2948076, "rss_kib": 40460, "pss_kib": 27302}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004730836, "cpu_ns": 2696492, "rss_kib": 41048, "pss_kib": 25395}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006462155, "cpu_ns": 3057803, "rss_kib": 41008, "pss_kib": 25343}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 4, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003683317, "cpu_ns": 0, "rss_kib": 15020, "pss_kib": 12786}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005545692, "cpu_ns": 3071427, "rss_kib": 41292, "pss_kib": 26696}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007306948, "cpu_ns": 2992362, "rss_kib": 41024, "pss_kib": 26497}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "role": "publisher", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003671184, "cpu_ns": 0, "rss_kib": 15148, "pss_kib": 12914}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005596477, "cpu_ns": 2810269, "rss_kib": 41312, "pss_kib": 26716}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007340080, "cpu_ns": 2801200, "rss_kib": 41040, "pss_kib": 26513}
+{"relay": "moqtail", "subscriptions": 1, "block": 4, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002944776, "cpu_ns": 3198075, "rss_kib": 38360, "pss_kib": 25260}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004765584, "cpu_ns": 3347034, "rss_kib": 41276, "pss_kib": 25726}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006513204, "cpu_ns": 2430014, "rss_kib": 41020, "pss_kib": 25376}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "role": "publisher", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002962686, "cpu_ns": 3296437, "rss_kib": 38412, "pss_kib": 25312}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004767804, "cpu_ns": 3014262, "rss_kib": 41300, "pss_kib": 25750}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006522778, "cpu_ns": 2985455, "rss_kib": 41044, "pss_kib": 25400}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 1, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003698075, "cpu_ns": 0, "rss_kib": 14940, "pss_kib": 12731}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005608490, "cpu_ns": 2628345, "rss_kib": 41236, "pss_kib": 26493}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007360389, "cpu_ns": 3216723, "rss_kib": 41116, "pss_kib": 26369}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "role": "publisher", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1004083967, "cpu_ns": 0, "rss_kib": 15408, "pss_kib": 13199}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1006111120, "cpu_ns": 3285580, "rss_kib": 41260, "pss_kib": 26519}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1008085205, "cpu_ns": 2543919, "rss_kib": 41144, "pss_kib": 26397}
+{"relay": "moqtail", "subscriptions": 2, "block": 1, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002140769, "cpu_ns": 372748, "rss_kib": 10636, "pss_kib": 3602}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004017831, "cpu_ns": 3022398, "rss_kib": 41144, "pss_kib": 26454}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005762686, "cpu_ns": 3162741, "rss_kib": 40996, "pss_kib": 26322}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "role": "publisher", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002120641, "cpu_ns": 407715, "rss_kib": 10780, "pss_kib": 3746}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003962137, "cpu_ns": 3107067, "rss_kib": 41168, "pss_kib": 26478}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005738371, "cpu_ns": 3057405, "rss_kib": 41020, "pss_kib": 26348}
+{"relay": "imquic", "subscriptions": 2, "block": 1, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1004151947, "cpu_ns": 0, "rss_kib": 15152, "pss_kib": 12888}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1006320284, "cpu_ns": 3079232, "rss_kib": 40964, "pss_kib": 26459}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1008336026, "cpu_ns": 3321697, "rss_kib": 41200, "pss_kib": 26652}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "role": "publisher", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003723534, "cpu_ns": 0, "rss_kib": 15620, "pss_kib": 13356}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005659157, "cpu_ns": 3054287, "rss_kib": 41012, "pss_kib": 26508}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007427887, "cpu_ns": 3136059, "rss_kib": 41244, "pss_kib": 26698}
+{"relay": "moqtail", "subscriptions": 4, "block": 6, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002946463, "cpu_ns": 2599407, "rss_kib": 40488, "pss_kib": 27348}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004757151, "cpu_ns": 3086007, "rss_kib": 41264, "pss_kib": 25561}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006538625, "cpu_ns": 3176213, "rss_kib": 41368, "pss_kib": 25583}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "role": "publisher", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002883068, "cpu_ns": 3244714, "rss_kib": 40592, "pss_kib": 27452}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004754921, "cpu_ns": 3035085, "rss_kib": 41308, "pss_kib": 25605}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006531766, "cpu_ns": 3055865, "rss_kib": 41412, "pss_kib": 25627}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 6, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002056516, "cpu_ns": 394539, "rss_kib": 10492, "pss_kib": 3586}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003954247, "cpu_ns": 3016916, "rss_kib": 41148, "pss_kib": 26485}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005714752, "cpu_ns": 3145288, "rss_kib": 41244, "pss_kib": 26598}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "role": "publisher", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002110407, "cpu_ns": 326133, "rss_kib": 10664, "pss_kib": 3758}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004046901, "cpu_ns": 2564964, "rss_kib": 41196, "pss_kib": 26534}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005836670, "cpu_ns": 2783391, "rss_kib": 41288, "pss_kib": 26645}
+{"relay": "imquic", "subscriptions": 4, "block": 6, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003747361, "cpu_ns": 0, "rss_kib": 15112, "pss_kib": 12862}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005638239, "cpu_ns": 3151158, "rss_kib": 41044, "pss_kib": 26423}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007413982, "cpu_ns": 1587056, "rss_kib": 41108, "pss_kib": 26462}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "role": "publisher", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003710971, "cpu_ns": 0, "rss_kib": 15476, "pss_kib": 13226}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005597651, "cpu_ns": 1943776, "rss_kib": 41064, "pss_kib": 26446}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007364878, "cpu_ns": 2930547, "rss_kib": 41124, "pss_kib": 26478}
+{"relay": "moqtail", "subscriptions": 1, "block": 3, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003025729, "cpu_ns": 3121493, "rss_kib": 38844, "pss_kib": 25492}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004830706, "cpu_ns": 3301315, "rss_kib": 41204, "pss_kib": 25479}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006587494, "cpu_ns": 2878808, "rss_kib": 41104, "pss_kib": 25365}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "role": "publisher", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003126456, "cpu_ns": 3254890, "rss_kib": 38864, "pss_kib": 25512}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004937205, "cpu_ns": 2842789, "rss_kib": 41220, "pss_kib": 25495}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006748845, "cpu_ns": 1656624, "rss_kib": 41120, "pss_kib": 25381}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 3, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002264152, "cpu_ns": 414017, "rss_kib": 10664, "pss_kib": 3680}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004168696, "cpu_ns": 3102587, "rss_kib": 41276, "pss_kib": 26626}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005924732, "cpu_ns": 3088051, "rss_kib": 41116, "pss_kib": 26439}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "role": "publisher", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002087413, "cpu_ns": 408337, "rss_kib": 10740, "pss_kib": 3756}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003931644, "cpu_ns": 2891679, "rss_kib": 41292, "pss_kib": 26642}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005731332, "cpu_ns": 2775779, "rss_kib": 41132, "pss_kib": 26455}
+{"relay": "imquic", "subscriptions": 1, "block": 3, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002313775, "cpu_ns": 3545826, "rss_kib": 40440, "pss_kib": 27356}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003483905, "cpu_ns": 3907792, "rss_kib": 41404, "pss_kib": 25579}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1004563355, "cpu_ns": 3636974, "rss_kib": 41212, "pss_kib": 25505}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "role": "publisher", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002981488, "cpu_ns": 3249818, "rss_kib": 40516, "pss_kib": 27432}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004800331, "cpu_ns": 3005106, "rss_kib": 41436, "pss_kib": 25614}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006568901, "cpu_ns": 1771027, "rss_kib": 41244, "pss_kib": 25537}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 4, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002035307, "cpu_ns": 419447, "rss_kib": 10728, "pss_kib": 3578}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003917429, "cpu_ns": 3149637, "rss_kib": 41232, "pss_kib": 26679}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005664839, "cpu_ns": 3007669, "rss_kib": 41048, "pss_kib": 26432}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "role": "publisher", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1001825254, "cpu_ns": 416941, "rss_kib": 10808, "pss_kib": 3658}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003602449, "cpu_ns": 2960786, "rss_kib": 41264, "pss_kib": 26711}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005341874, "cpu_ns": 3042365, "rss_kib": 41080, "pss_kib": 26465}
+{"relay": "imquic", "subscriptions": 3, "block": 4, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003753564, "cpu_ns": 0, "rss_kib": 14924, "pss_kib": 12799}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005616750, "cpu_ns": 1765277, "rss_kib": 41384, "pss_kib": 26763}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007384408, "cpu_ns": 3058799, "rss_kib": 41012, "pss_kib": 26403}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "role": "publisher", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003708820, "cpu_ns": 0, "rss_kib": 15272, "pss_kib": 13147}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005607373, "cpu_ns": 3048745, "rss_kib": 41416, "pss_kib": 26795}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007362757, "cpu_ns": 3101226, "rss_kib": 41044, "pss_kib": 26435}
+{"relay": "moqtail", "subscriptions": 3, "block": 4, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003671016, "cpu_ns": 0, "rss_kib": 14940, "pss_kib": 12683}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005541086, "cpu_ns": 3067736, "rss_kib": 41308, "pss_kib": 26744}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007256566, "cpu_ns": 3056208, "rss_kib": 41072, "pss_kib": 26409}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "role": "publisher", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003686334, "cpu_ns": 0, "rss_kib": 15472, "pss_kib": 13215}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005529242, "cpu_ns": 3218986, "rss_kib": 41340, "pss_kib": 26778}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007267455, "cpu_ns": 3255934, "rss_kib": 41104, "pss_kib": 26441}
+{"relay": "moqtail", "subscriptions": 3, "block": 2, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002079882, "cpu_ns": 347243, "rss_kib": 10696, "pss_kib": 3546}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003960821, "cpu_ns": 2426689, "rss_kib": 41136, "pss_kib": 26611}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005709974, "cpu_ns": 3587505, "rss_kib": 41044, "pss_kib": 26459}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "role": "publisher", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002103264, "cpu_ns": 362520, "rss_kib": 10804, "pss_kib": 3654}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003942877, "cpu_ns": 3086977, "rss_kib": 41168, "pss_kib": 26643}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005709152, "cpu_ns": 3039409, "rss_kib": 41076, "pss_kib": 26491}
+{"relay": "imquic", "subscriptions": 3, "block": 2, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003077135, "cpu_ns": 3466849, "rss_kib": 38384, "pss_kib": 25248}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005156526, "cpu_ns": 3190633, "rss_kib": 41092, "pss_kib": 25497}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007133245, "cpu_ns": 3621469, "rss_kib": 41084, "pss_kib": 25356}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "role": "publisher", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002956550, "cpu_ns": 2756938, "rss_kib": 38460, "pss_kib": 25324}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004833402, "cpu_ns": 3058309, "rss_kib": 41124, "pss_kib": 25529}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006582986, "cpu_ns": 3033165, "rss_kib": 41116, "pss_kib": 25389}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 2, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003122242, "cpu_ns": 1730226, "rss_kib": 38952, "pss_kib": 25439}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004970190, "cpu_ns": 2619702, "rss_kib": 41296, "pss_kib": 25481}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006697633, "cpu_ns": 3135536, "rss_kib": 41284, "pss_kib": 25446}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "role": "publisher", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002970028, "cpu_ns": 3019428, "rss_kib": 38972, "pss_kib": 25459}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004835690, "cpu_ns": 2939563, "rss_kib": 41312, "pss_kib": 25497}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006579282, "cpu_ns": 3015850, "rss_kib": 41300, "pss_kib": 25462}
+{"relay": "aiomoqt", "subscriptions": 1, "block": 5, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002128223, "cpu_ns": 394651, "rss_kib": 10676, "pss_kib": 3626}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004013090, "cpu_ns": 3051096, "rss_kib": 41128, "pss_kib": 26410}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005760330, "cpu_ns": 3166329, "rss_kib": 41012, "pss_kib": 26345}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "role": "publisher", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002110900, "cpu_ns": 401875, "rss_kib": 10688, "pss_kib": 3638}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003960952, "cpu_ns": 2972966, "rss_kib": 41144, "pss_kib": 26429}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005742926, "cpu_ns": 3119989, "rss_kib": 41028, "pss_kib": 26364}
+{"relay": "imquic", "subscriptions": 1, "block": 5, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003798678, "cpu_ns": 0, "rss_kib": 15164, "pss_kib": 12914}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005663748, "cpu_ns": 2278281, "rss_kib": 41116, "pss_kib": 26502}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007445252, "cpu_ns": 3187176, "rss_kib": 40976, "pss_kib": 26392}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "role": "publisher", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "role": "subscriber", "event": "established", "count": 1}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003746492, "cpu_ns": 0, "rss_kib": 15484, "pss_kib": 13234}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005685902, "cpu_ns": 2979855, "rss_kib": 41132, "pss_kib": 26518}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007434704, "cpu_ns": 3050409, "rss_kib": 40992, "pss_kib": 26408}
+{"relay": "moqtail", "subscriptions": 1, "block": 5, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003626099, "cpu_ns": 0, "rss_kib": 14936, "pss_kib": 12757}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005522718, "cpu_ns": 1807798, "rss_kib": 41208, "pss_kib": 26564}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007276169, "cpu_ns": 3122196, "rss_kib": 41268, "pss_kib": 26584}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "role": "publisher", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003755139, "cpu_ns": 730717, "rss_kib": 14936, "pss_kib": 12757}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005624798, "cpu_ns": 3267569, "rss_kib": 41212, "pss_kib": 26570}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007398607, "cpu_ns": 3246042, "rss_kib": 41272, "pss_kib": 26588}
+{"relay": "moqtail", "subscriptions": 0, "block": 2, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002943267, "cpu_ns": 3021496, "rss_kib": 38516, "pss_kib": 25275}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004769765, "cpu_ns": 2732261, "rss_kib": 41340, "pss_kib": 25785}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006541550, "cpu_ns": 3185759, "rss_kib": 41040, "pss_kib": 25363}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "role": "publisher", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002523213, "cpu_ns": 2894705, "rss_kib": 38516, "pss_kib": 25275}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004347727, "cpu_ns": 3152181, "rss_kib": 41344, "pss_kib": 25789}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006151853, "cpu_ns": 2976029, "rss_kib": 41044, "pss_kib": 25367}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 2, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002090223, "cpu_ns": 391393, "rss_kib": 10556, "pss_kib": 3611}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004038389, "cpu_ns": 3145657, "rss_kib": 41164, "pss_kib": 26458}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005849669, "cpu_ns": 3019933, "rss_kib": 41188, "pss_kib": 26611}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "role": "publisher", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002014483, "cpu_ns": 438953, "rss_kib": 10556, "pss_kib": 3611}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003886606, "cpu_ns": 3076458, "rss_kib": 41168, "pss_kib": 26464}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005690692, "cpu_ns": 3266994, "rss_kib": 41192, "pss_kib": 26615}
+{"relay": "imquic", "subscriptions": 0, "block": 2, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003127523, "cpu_ns": 2958739, "rss_kib": 40488, "pss_kib": 27293}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004944533, "cpu_ns": 3009076, "rss_kib": 41092, "pss_kib": 25399}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006705208, "cpu_ns": 2786632, "rss_kib": 40992, "pss_kib": 25332}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "role": "publisher", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003213726, "cpu_ns": 3577755, "rss_kib": 40592, "pss_kib": 27397}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005317943, "cpu_ns": 2821278, "rss_kib": 41136, "pss_kib": 25443}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007394980, "cpu_ns": 3093609, "rss_kib": 41036, "pss_kib": 25376}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 3, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003585704, "cpu_ns": 0, "rss_kib": 14944, "pss_kib": 12649}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005436818, "cpu_ns": 3019261, "rss_kib": 41244, "pss_kib": 26463}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007479671, "cpu_ns": 3316980, "rss_kib": 41232, "pss_kib": 26416}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "role": "publisher", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1004220669, "cpu_ns": 0, "rss_kib": 15496, "pss_kib": 13202}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1006455621, "cpu_ns": 2860940, "rss_kib": 41292, "pss_kib": 26514}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1008222829, "cpu_ns": 3031014, "rss_kib": 41280, "pss_kib": 26467}
+{"relay": "moqtail", "subscriptions": 4, "block": 3, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002121543, "cpu_ns": 389218, "rss_kib": 10644, "pss_kib": 3527}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003975071, "cpu_ns": 3119479, "rss_kib": 41316, "pss_kib": 26659}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005771763, "cpu_ns": 3111776, "rss_kib": 41072, "pss_kib": 26373}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "role": "publisher", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002143863, "cpu_ns": 416308, "rss_kib": 10816, "pss_kib": 3699}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003926639, "cpu_ns": 3001899, "rss_kib": 41360, "pss_kib": 26703}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005716198, "cpu_ns": 3103870, "rss_kib": 41116, "pss_kib": 26417}
+{"relay": "imquic", "subscriptions": 4, "block": 3, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003184240, "cpu_ns": 0, "rss_kib": 17508, "pss_kib": 15221}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005078876, "cpu_ns": 1795770, "rss_kib": 41044, "pss_kib": 26407}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006853376, "cpu_ns": 3137292, "rss_kib": 41308, "pss_kib": 26709}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "role": "publisher", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003741336, "cpu_ns": 0, "rss_kib": 17760, "pss_kib": 15473}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005594815, "cpu_ns": 3006455, "rss_kib": 41076, "pss_kib": 26439}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007339640, "cpu_ns": 2961573, "rss_kib": 41340, "pss_kib": 26741}
+{"relay": "moqtail", "subscriptions": 3, "block": 6, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002974850, "cpu_ns": 3531696, "rss_kib": 38444, "pss_kib": 25255}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004781461, "cpu_ns": 3538535, "rss_kib": 41044, "pss_kib": 25366}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006545352, "cpu_ns": 2873921, "rss_kib": 41344, "pss_kib": 25692}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "role": "publisher", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002881656, "cpu_ns": 3010801, "rss_kib": 38524, "pss_kib": 25333}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004727460, "cpu_ns": 3086793, "rss_kib": 41076, "pss_kib": 25397}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006528781, "cpu_ns": 2946722, "rss_kib": 41376, "pss_kib": 25721}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 6, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002112687, "cpu_ns": 365973, "rss_kib": 10636, "pss_kib": 3637}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003956517, "cpu_ns": 3104170, "rss_kib": 41060, "pss_kib": 26317}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005655917, "cpu_ns": 2652937, "rss_kib": 41012, "pss_kib": 26269}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "role": "publisher", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002095983, "cpu_ns": 392856, "rss_kib": 10716, "pss_kib": 3717}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003961805, "cpu_ns": 1899160, "rss_kib": 41092, "pss_kib": 26349}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005630537, "cpu_ns": 3038181, "rss_kib": 41044, "pss_kib": 26301}
+{"relay": "imquic", "subscriptions": 3, "block": 6, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002297332, "cpu_ns": 3003379, "rss_kib": 38880, "pss_kib": 25610}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004078465, "cpu_ns": 3146546, "rss_kib": 41124, "pss_kib": 25393}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005831886, "cpu_ns": 3122635, "rss_kib": 40980, "pss_kib": 25312}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "role": "publisher", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002982877, "cpu_ns": 3214668, "rss_kib": 38932, "pss_kib": 25662}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004802522, "cpu_ns": 2776166, "rss_kib": 41148, "pss_kib": 25417}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006568306, "cpu_ns": 2367656, "rss_kib": 41004, "pss_kib": 25336}
+{"relay": "aiomoqt", "subscriptions": 2, "block": 5, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002057526, "cpu_ns": 401110, "rss_kib": 10648, "pss_kib": 3546}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003913919, "cpu_ns": 3013602, "rss_kib": 41304, "pss_kib": 26681}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005706223, "cpu_ns": 3138754, "rss_kib": 41116, "pss_kib": 26343}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "role": "publisher", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002558954, "cpu_ns": 361778, "rss_kib": 10792, "pss_kib": 3690}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005669555, "cpu_ns": 3163942, "rss_kib": 41328, "pss_kib": 26705}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1008021125, "cpu_ns": 2052895, "rss_kib": 41144, "pss_kib": 26371}
+{"relay": "imquic", "subscriptions": 2, "block": 5, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003669052, "cpu_ns": 0, "rss_kib": 15052, "pss_kib": 12942}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005600326, "cpu_ns": 3212562, "rss_kib": 41356, "pss_kib": 26616}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007356161, "cpu_ns": 2001401, "rss_kib": 41188, "pss_kib": 26424}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "role": "publisher", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "role": "subscriber", "event": "established", "count": 2}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003695301, "cpu_ns": 0, "rss_kib": 15336, "pss_kib": 13226}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005553899, "cpu_ns": 2965465, "rss_kib": 41380, "pss_kib": 26640}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007336826, "cpu_ns": 1849789, "rss_kib": 41212, "pss_kib": 26448}
+{"relay": "moqtail", "subscriptions": 2, "block": 5, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002894501, "cpu_ns": 3121230, "rss_kib": 38816, "pss_kib": 25605}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004796971, "cpu_ns": 3156880, "rss_kib": 41172, "pss_kib": 25401}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006544251, "cpu_ns": 3125608, "rss_kib": 41032, "pss_kib": 25310}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "role": "publisher", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002910238, "cpu_ns": 3312365, "rss_kib": 38896, "pss_kib": 25685}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004799634, "cpu_ns": 2995488, "rss_kib": 41204, "pss_kib": 25433}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006550340, "cpu_ns": 2972584, "rss_kib": 41064, "pss_kib": 25342}
+{"relay": "aiomoqt", "subscriptions": 3, "block": 1, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003803553, "cpu_ns": 0, "rss_kib": 14956, "pss_kib": 12658}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005713548, "cpu_ns": 3060519, "rss_kib": 41092, "pss_kib": 26356}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007456730, "cpu_ns": 2583954, "rss_kib": 41028, "pss_kib": 26314}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "role": "publisher", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003711722, "cpu_ns": 0, "rss_kib": 15388, "pss_kib": 13090}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005593142, "cpu_ns": 3046037, "rss_kib": 41124, "pss_kib": 26388}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007385476, "cpu_ns": 2882049, "rss_kib": 41060, "pss_kib": 26346}
+{"relay": "moqtail", "subscriptions": 3, "block": 1, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002058159, "cpu_ns": 385982, "rss_kib": 10496, "pss_kib": 3559}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003951692, "cpu_ns": 3067601, "rss_kib": 41132, "pss_kib": 26337}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005712788, "cpu_ns": 3091536, "rss_kib": 41056, "pss_kib": 26350}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "role": "publisher", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "role": "subscriber", "event": "established", "count": 3}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002093287, "cpu_ns": 417393, "rss_kib": 10640, "pss_kib": 3703}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003953298, "cpu_ns": 2320512, "rss_kib": 41164, "pss_kib": 26372}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005741444, "cpu_ns": 2984130, "rss_kib": 41088, "pss_kib": 26384}
+{"relay": "imquic", "subscriptions": 3, "block": 1, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002942862, "cpu_ns": 3084336, "rss_kib": 38364, "pss_kib": 25244}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004758149, "cpu_ns": 3129931, "rss_kib": 41164, "pss_kib": 25392}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006556735, "cpu_ns": 3056055, "rss_kib": 41020, "pss_kib": 25323}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "role": "publisher", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002928389, "cpu_ns": 2971714, "rss_kib": 38364, "pss_kib": 25244}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004782558, "cpu_ns": 3096037, "rss_kib": 41168, "pss_kib": 25396}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006526532, "cpu_ns": 2865345, "rss_kib": 41024, "pss_kib": 25330}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 4, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002097944, "cpu_ns": 417341, "rss_kib": 10608, "pss_kib": 3539}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003936084, "cpu_ns": 3049288, "rss_kib": 41296, "pss_kib": 26426}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005710574, "cpu_ns": 3117715, "rss_kib": 41140, "pss_kib": 26382}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "role": "publisher", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002239070, "cpu_ns": 414827, "rss_kib": 10608, "pss_kib": 3539}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004070788, "cpu_ns": 3064066, "rss_kib": 41300, "pss_kib": 26430}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005844016, "cpu_ns": 3008959, "rss_kib": 41144, "pss_kib": 26388}
+{"relay": "imquic", "subscriptions": 0, "block": 4, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003788947, "cpu_ns": 0, "rss_kib": 15140, "pss_kib": 12890}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005660449, "cpu_ns": 2880972, "rss_kib": 41356, "pss_kib": 26734}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007405585, "cpu_ns": 3187876, "rss_kib": 41016, "pss_kib": 26358}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "role": "publisher", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003792264, "cpu_ns": 834042, "rss_kib": 15140, "pss_kib": 12890}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005649018, "cpu_ns": 3307469, "rss_kib": 41360, "pss_kib": 26738}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007408641, "cpu_ns": 3191231, "rss_kib": 41020, "pss_kib": 26362}
+{"relay": "moqtail", "subscriptions": 0, "block": 4, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1003769891, "cpu_ns": 0, "rss_kib": 15028, "pss_kib": 12770}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1005627658, "cpu_ns": 3108866, "rss_kib": 41152, "pss_kib": 26391}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1007371381, "cpu_ns": 3424814, "rss_kib": 41100, "pss_kib": 26396}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "role": "publisher", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003748011, "cpu_ns": 0, "rss_kib": 15356, "pss_kib": 13098}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005610807, "cpu_ns": 2931177, "rss_kib": 41196, "pss_kib": 26435}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007394415, "cpu_ns": 3034019, "rss_kib": 41208, "pss_kib": 26504}
+{"relay": "moqtail", "subscriptions": 4, "block": 4, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002083949, "cpu_ns": 292508, "rss_kib": 10660, "pss_kib": 3518}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1003978906, "cpu_ns": 3013861, "rss_kib": 41164, "pss_kib": 26364}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005741814, "cpu_ns": 3343214, "rss_kib": 41044, "pss_kib": 26318}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "role": "publisher", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002085631, "cpu_ns": 442710, "rss_kib": 10764, "pss_kib": 3622}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003984525, "cpu_ns": 3413678, "rss_kib": 41212, "pss_kib": 26415}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005884080, "cpu_ns": 3839727, "rss_kib": 41088, "pss_kib": 26363}
+{"relay": "imquic", "subscriptions": 4, "block": 4, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002979390, "cpu_ns": 2898248, "rss_kib": 38432, "pss_kib": 25240}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004799657, "cpu_ns": 2587734, "rss_kib": 41284, "pss_kib": 25722}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006529023, "cpu_ns": 3125049, "rss_kib": 40904, "pss_kib": 25295}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "role": "publisher", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "role": "subscriber", "event": "established", "count": 4}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002975334, "cpu_ns": 2018604, "rss_kib": 38536, "pss_kib": 25344}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1004856995, "cpu_ns": 3017247, "rss_kib": 41328, "pss_kib": 25769}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1006618251, "cpu_ns": 3044067, "rss_kib": 40948, "pss_kib": 25339}
+{"relay": "aiomoqt", "subscriptions": 4, "block": 4, "position": 3, "event": "trial_completed", "passed": true}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "role": "publisher", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "role": "subscriber", "event": "ready"}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002995834, "cpu_ns": 2869221, "rss_kib": 38812, "pss_kib": 25487}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004818134, "cpu_ns": 2169888, "rss_kib": 41224, "pss_kib": 25477}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1006922852, "cpu_ns": 3211305, "rss_kib": 41000, "pss_kib": 25344}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "role": "publisher", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1002181009, "cpu_ns": 3056913, "rss_kib": 38812, "pss_kib": 25487}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1003989152, "cpu_ns": 3192943, "rss_kib": 41228, "pss_kib": 25481}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1005758022, "cpu_ns": 2963304, "rss_kib": 41004, "pss_kib": 25348}
+{"relay": "aiomoqt", "subscriptions": 0, "block": 6, "position": 1, "event": "trial_completed", "passed": true}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "role": "publisher", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "role": "subscriber", "event": "ready"}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1004099139, "cpu_ns": 0, "rss_kib": 15492, "pss_kib": 13196}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1006096226, "cpu_ns": 2934128, "rss_kib": 40960, "pss_kib": 26325}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1008091980, "cpu_ns": 2496983, "rss_kib": 40996, "pss_kib": 26298}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "role": "publisher", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1003769482, "cpu_ns": 753021, "rss_kib": 15492, "pss_kib": 13197}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1005617641, "cpu_ns": 3408418, "rss_kib": 40964, "pss_kib": 26330}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1007461230, "cpu_ns": 3282951, "rss_kib": 41000, "pss_kib": 26303}
+{"relay": "moqtail", "subscriptions": 0, "block": 6, "position": 2, "event": "trial_completed", "passed": true}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "role": "publisher", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "role": "subscriber", "event": "ready"}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "relay", "window_ns": 1002227340, "cpu_ns": 401172, "rss_kib": 10676, "pss_kib": 3534}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "publisher", "window_ns": 1004106887, "cpu_ns": 1654060, "rss_kib": 40996, "pss_kib": 26375}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "event": "sample", "phase": "setup", "role": "subscriber", "window_ns": 1005856711, "cpu_ns": 3204378, "rss_kib": 41308, "pss_kib": 26649}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "role": "publisher", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "role": "subscriber", "event": "established", "count": 0}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "relay", "window_ns": 1001570397, "cpu_ns": 504085, "rss_kib": 10676, "pss_kib": 3534}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "publisher", "window_ns": 1002475881, "cpu_ns": 4280023, "rss_kib": 41004, "pss_kib": 26386}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "event": "sample", "phase": "subscribed", "role": "subscriber", "window_ns": 1003464752, "cpu_ns": 3876376, "rss_kib": 41312, "pss_kib": 26653}
+{"relay": "imquic", "subscriptions": 0, "block": 6, "position": 3, "event": "trial_completed", "passed": true}

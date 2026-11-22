@@ -1,0 +1,35 @@
+--- upstream/connection.rs
++++ measured/connection.rs
+@@ -172,7 +172,7 @@
+         Some(Arc::new(tls::client::NoServerVerification::new())),
+       )
+     } else {
+-      tls::client::build_default_tls_config(Arc::new(tls::build_native_cert_store()), None)
++      tls::client::build_default_tls_config(Arc::new(benchmark_roots().await?), None)
+     };
+ 
+     info!("alpn protocols: {:?}", tls_config.alpn_protocols);
+@@ -223,7 +223,7 @@
+         Some(Arc::new(tls::client::NoServerVerification::new())),
+       )
+     } else {
+-      tls::client::build_default_tls_config(Arc::new(tls::build_native_cert_store()), None)
++      tls::client::build_default_tls_config(Arc::new(benchmark_roots().await?), None)
+     };
+     tls_config.alpn_protocols = CLIENT_SUPPORTED_VERSIONS
+       .replace(" ", "")
+@@ -425,3 +425,14 @@
+     assert!(MoqtUrl::parse("moqt://host#MSF:abc").is_err());
+   }
+ }
++
++async fn benchmark_roots() -> Result<tls::rustls::RootCertStore> {
++  if let Ok(path) = std::env::var("MOQ_TEST_CA_FILE") {
++    let certificate = tls::Certificate::load_pemfile(path).await?;
++    let mut roots = tls::rustls::RootCertStore::empty();
++    roots.add(tls::rustls::pki_types::CertificateDer::from(certificate.der().to_vec()))?;
++    Ok(roots)
++  } else {
++    Ok(tls::build_native_cert_store())
++  }
++}

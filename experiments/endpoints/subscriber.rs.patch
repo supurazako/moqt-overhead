@@ -1,0 +1,26 @@
+--- upstream/subscriber.rs
++++ measured/subscriber.rs
+@@ -156,6 +156,7 @@
+ 
+   match request_stream.next_message().await {
+     Ok(ControlMessage::SubscribeOk(m)) => {
++      println!("BENCH_READY");
+       info!(
+         "Subscribed: track={} track_alias={} track_properties={:?}",
+         track_name, m.track_alias, m.track_properties
+@@ -579,6 +580,15 @@
+                     ObjectFields::from(&obj),
+                     ReceptionStats::prior_group_gap(obj.properties.as_ref()),
+                   );
++                  if let Some(payload) = &obj.payload {
++                    if payload.len() != 64 || payload.iter().any(|byte| *byte != b't') {
++                      stats.record_parse_error();
++                    }
++                  }
++                  if stats.total_received == 50 {
++                    println!("BENCH_RECEIVED {} {}", stats.total_received,
++                      stats.parse_errors + stats.sequence_gaps + stats.duplicates);
++                  }
+                   let sequence_ok = matches!(status, "OK" | "FILL");
+ 
+                   // Where a group or the track ends is always worth seeing.

@@ -1,0 +1,57 @@
+--- thread-counter/measure.py
++++ process-clock/measure.py
+@@ -1,5 +1,6 @@
+ """Role-separated connection and sustained multi-track resource measurements."""
+ import argparse
++import ctypes
+ import asyncio
+ import itertools
+ import json
+@@ -11,11 +12,11 @@
+ import tempfile
+ from contextlib import AsyncExitStack
+ from pathlib import Path
+-from time import monotonic_ns
++from time import monotonic_ns, clock_gettime_ns
+ 
+ ROOT = Path(__file__).resolve().parents[2]
+ sys.path.insert(0, str(ROOT / 'experiments/fanout'))
+-from measure import command, emit, read_until, relay_command, snapshot, stop, udp_ports
++from measure import command, emit, read_until, relay_command, stop, udp_ports
+ from capture import capture_links
+ from aiomoqt.client import MOQTClient
+ from aiomoqt.context import profile_for
+@@ -25,6 +26,24 @@
+ 
+ RELAYS = ('aiomoqt', 'imquic', 'moqtail')
+ NAMESPACE = 'moq-test/resources'
++
++# Linux process clocks retain CPU consumed by threads after those threads exit.
++LIBC = ctypes.CDLL(None)
++LIBC.clock_getcpuclockid.argtypes = [ctypes.c_int, ctypes.POINTER(ctypes.c_int)]
++LIBC.clock_getcpuclockid.restype = ctypes.c_int
++
++
++def snapshot(pid):
++    memory = {}
++    for line in Path(f'/proc/{pid}/smaps_rollup').read_text().splitlines():
++        if line.startswith(('Pss:', 'Rss:')):
++            name, value, _ = line.split()
++            memory[name[:-1].lower() + '_kib'] = int(value)
++    clock = ctypes.c_int()
++    error = LIBC.clock_getcpuclockid(pid, ctypes.byref(clock))
++    if error:
++        raise OSError(error, 'Cannot obtain process CPU clock')
++    return memory, clock_gettime_ns(clock.value), ('process-cpu-clock',)
+ 
+ 
+ async def endpoint(args):
+@@ -208,7 +227,7 @@
+         block_levels = list(levels)
+         rng.shuffle(block_levels)
+         cases.extend((level, block, order) for level in block_levels)
+-    emit(event='configuration', mode=args.mode, levels=levels, objects=args.objects,
++    emit(event='configuration', cpu_counter='linux-process-clock', mode=args.mode, levels=levels, objects=args.objects,
+          payload=args.payload, interval_ms=args.interval_ms, duration=args.duration,
+          idle_seconds=args.idle_seconds, seed=22022, balanced=args.balanced)
+     failures = 0

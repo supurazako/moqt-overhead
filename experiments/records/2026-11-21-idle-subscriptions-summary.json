@@ -1,0 +1,1472 @@
+[
+  {
+    "relay": "aiomoqt",
+    "subscriptions": 0,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": -1,
+        "max": 0
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 25264.0,
+        "min": 25239,
+        "max": 25666
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 38492.0,
+        "min": 38364,
+        "max": 38912
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.07889258162474211,
+        "min": -0.22253464207576856,
+        "max": 0.18960939013584177
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 25405.5,
+        "min": 25396,
+        "max": 25789
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41132.0,
+        "min": 41080,
+        "max": 41344
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.348701765304714,
+        "min": -0.7229813117028876,
+        "max": 1.0207731535346056
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 3,
+        "max": 7
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 25357.5,
+        "min": 25330,
+        "max": 25460
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41028.0,
+        "min": 40964,
+        "max": 41048
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.19830203968464732,
+        "min": -0.4841343256261825,
+        "max": -0.05436042147527598
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscriptions": 0,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 3579.0,
+        "min": 3534,
+        "max": 3611
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 10582.0,
+        "min": 10420,
+        "max": 10692
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.002696681569998971,
+        "min": -0.028383092176035296,
+        "max": 0.10301418826047687
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 6.0,
+        "min": 4,
+        "max": 11
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26474.0,
+        "min": 26386,
+        "max": 26734
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 8
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41234.0,
+        "min": 41004,
+        "max": 41356
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.0022609069407322213,
+        "min": -1.1521041075914826,
+        "max": 2.6221575974409954
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 6
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26452.5,
+        "min": 26371,
+        "max": 26653
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41168.0,
+        "min": 41016,
+        "max": 41312
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.06880111258624755,
+        "min": -1.333174158451486,
+        "max": 0.677271534100397
+      }
+    }
+  },
+  {
+    "relay": "moqtail",
+    "subscriptions": 0,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0,
+        "max": 1
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 12839.0,
+        "min": 12735,
+        "max": 13197
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 15112.0,
+        "min": 14936,
+        "max": 15492
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.7171896122710681,
+        "min": 0.6087572313850833,
+        "max": 0.8308910418142055
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 4.5,
+        "min": -26,
+        "max": 6
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26492.5,
+        "min": 26330,
+        "max": 26738
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41076.0,
+        "min": 40964,
+        "max": 41360
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.44858111235127596,
+        "min": -0.8367301450760465,
+        "max": 1.4514235094916745
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": -25,
+        "max": 5
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26528.0,
+        "min": 26303,
+        "max": 26682
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41116.0,
+        "min": 41000,
+        "max": 41272
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.06789490221051131,
+        "min": -0.5163228361415757,
+        "max": 0.7816979018504484
+      }
+    }
+  },
+  {
+    "relay": "aiomoqt",
+    "subscriptions": 1,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 20.0,
+        "min": 18,
+        "max": 21
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 25493.5,
+        "min": 25288,
+        "max": 27302
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 20.0,
+        "min": 20,
+        "max": 20
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 38900.0,
+        "min": 38460,
+        "max": 40460
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.27736596138907155,
+        "min": -0.21387407645474799,
+        "max": 1.2856461398582055
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 14,
+        "max": 16
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 25496.0,
+        "min": 25395,
+        "max": 25712
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 16,
+        "max": 16
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41216.0,
+        "min": 41048,
+        "max": 41312
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.35127162928695066,
+        "min": -0.8336150746580571,
+        "max": 2.0892365465181175
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 14,
+        "max": 19
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 25389.5,
+        "min": 25343,
+        "max": 25504
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 16,
+        "max": 16
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41090.0,
+        "min": 41008,
+        "max": 41300
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.044755425305452956,
+        "min": -1.2144493284154052,
+        "max": 0.550523260717481
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscriptions": 1,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 97.5,
+        "min": 12,
+        "max": 140
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 3731.0,
+        "min": 3638,
+        "max": 3756
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 98.0,
+        "min": 12,
+        "max": 140
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 10732.0,
+        "min": 10652,
+        "max": 10832
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.01602913335942835,
+        "min": -0.10218940389670772,
+        "max": 0.024985799992478352
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 18.0,
+        "min": 14,
+        "max": 19
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26535.0,
+        "min": 26424,
+        "max": 26642
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 16,
+        "max": 16
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41204.0,
+        "min": 41056,
+        "max": 41296
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.1435082070253071,
+        "min": -0.4935161147211491,
+        "max": 1.2361126013563453
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 16.5,
+        "min": 14,
+        "max": 19
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26478.5,
+        "min": 26364,
+        "max": 26559
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 16,
+        "max": 16
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41132.0,
+        "min": 41028,
+        "max": 41304
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.25785787916455893,
+        "min": -0.3099021364863037,
+        "max": 1.3105398784176874
+      }
+    }
+  },
+  {
+    "relay": "moqtail",
+    "subscriptions": 1,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 274.0,
+        "min": 128,
+        "max": 364
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 13185.0,
+        "min": 12914,
+        "max": 13274
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 274.0,
+        "min": 128,
+        "max": 364
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 15454.0,
+        "min": 15148,
+        "max": 15496
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 21.0,
+        "min": 16,
+        "max": 23
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26525.5,
+        "min": 26434,
+        "max": 26716
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 20.0,
+        "min": 16,
+        "max": 20
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41152.0,
+        "min": 41064,
+        "max": 41312
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.2536345535128799,
+        "min": -1.200534643932131,
+        "max": 0.6975575672525753
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 16,
+        "max": 18
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26443.0,
+        "min": 26381,
+        "max": 26611
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 16.0,
+        "min": 16,
+        "max": 16
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41052.0,
+        "min": 40992,
+        "max": 41128
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.12283847284478644,
+        "min": -0.18986678635926424,
+        "max": 1.3337454844960346
+      }
+    }
+  },
+  {
+    "relay": "aiomoqt",
+    "subscriptions": 2,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 52.5,
+        "min": 52,
+        "max": 56
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 25407.5,
+        "min": 25298,
+        "max": 27385
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 52.0,
+        "min": 52,
+        "max": 56
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 38698.0,
+        "min": 38412,
+        "max": 40516
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.1196321567169959,
+        "min": 0.0588099387332206,
+        "max": 0.20861250236161366
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 27
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 25489.0,
+        "min": 25417,
+        "max": 25750
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41186.0,
+        "min": 41028,
+        "max": 41372
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.2957456575186812,
+        "min": -1.4441839216170287,
+        "max": 0.05180251134072966
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 25.0,
+        "min": 24,
+        "max": 28
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 25461.5,
+        "min": 25336,
+        "max": 25673
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 28
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41118.0,
+        "min": 41004,
+        "max": 41336
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.06640300444039493,
+        "min": -0.7523237452188845,
+        "max": 0.5518184960487802
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscriptions": 2,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 144.0,
+        "min": 108,
+        "max": 145
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 3743.0,
+        "min": 3654,
+        "max": 3754
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 144.0,
+        "min": 108,
+        "max": 144
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 10772.0,
+        "min": 10564,
+        "max": 10804
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.007030608755502599,
+        "min": -0.03943181061962925,
+        "max": 0.063068980907312
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 25
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26508.0,
+        "min": 26441,
+        "max": 26705
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41170.0,
+        "min": 41100,
+        "max": 41328
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.049854872703404496,
+        "min": -0.3237006534188711,
+        "max": 0.2747431971703762
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 26.0,
+        "min": 24,
+        "max": 28
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26502.5,
+        "min": 26348,
+        "max": 26719
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 28
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41126.0,
+        "min": 40964,
+        "max": 41364
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.3177854819327879,
+        "min": -1.4132231502270785,
+        "max": 1.0883786543340777
+      }
+    }
+  },
+  {
+    "relay": "moqtail",
+    "subscriptions": 2,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 382.0,
+        "min": 284,
+        "max": 528
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 13222.0,
+        "min": 13088,
+        "max": 13400
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 382.0,
+        "min": 284,
+        "max": 528
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 15400.0,
+        "min": 15336,
+        "max": 15544
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 25.0,
+        "min": 24,
+        "max": 30
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26584.5,
+        "min": 26452,
+        "max": 26749
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 28
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41282.0,
+        "min": 41176,
+        "max": 41380
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.0708127717018201,
+        "min": -0.24558472824207422,
+        "max": 0.6877414127425849
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 28
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26468.5,
+        "min": 26397,
+        "max": 26562
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 24.0,
+        "min": 24,
+        "max": 28
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41130.0,
+        "min": 41052,
+        "max": 41212
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.13053439719629822,
+        "min": -0.6697038041560215,
+        "max": 0.07956285019357967
+      }
+    }
+  },
+  {
+    "relay": "aiomoqt",
+    "subscriptions": 3,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 77.0,
+        "min": 76,
+        "max": 80
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 25426.0,
+        "min": 25321,
+        "max": 27432
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 78.0,
+        "min": 76,
+        "max": 80
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 38710.0,
+        "min": 38460,
+        "max": 40516
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.21667546043552433,
+        "min": -0.7074027608307749,
+        "max": 0.37561863607910784
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 31,
+        "max": 35
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 25478.5,
+        "min": 25397,
+        "max": 25614
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 32
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41164.0,
+        "min": 41076,
+        "max": 41436
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.14587514961367987,
+        "min": -0.9034754775529756,
+        "max": 1.0070859582402005
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 29,
+        "max": 33
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 25448.5,
+        "min": 25342,
+        "max": 25721
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 32
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41180.0,
+        "min": 41060,
+        "max": 41376
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.14874004818558162,
+        "min": -1.8609833686975872,
+        "max": 0.07237578838565639
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscriptions": 3,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 80.0,
+        "min": 16,
+        "max": 144
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 3656.0,
+        "min": 3644,
+        "max": 3717
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 80.0,
+        "min": 16,
+        "max": 144
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 10722.0,
+        "min": 10640,
+        "max": 10808
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.0064115915974569115,
+        "min": -0.06375423044985229,
+        "max": 0.03133188245088303
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 35
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26527.5,
+        "min": 26349,
+        "max": 26768
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 32
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41166.0,
+        "min": 41092,
+        "max": 41348
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.6724547941968018,
+        "min": -1.3724170879538575,
+        "max": 0.6577379927123603
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 32.5,
+        "min": 32,
+        "max": 34
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26425.0,
+        "min": 26301,
+        "max": 26491
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 32
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41078.0,
+        "min": 41044,
+        "max": 41112
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.31409086174059775,
+        "min": -1.1094948788800034,
+        "max": 0.3831535923826408
+      }
+    }
+  },
+  {
+    "relay": "moqtail",
+    "subscriptions": 3,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 300.0,
+        "min": 144,
+        "max": 532
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 13181.0,
+        "min": 13090,
+        "max": 15473
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 300.0,
+        "min": 144,
+        "max": 532
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 15430.0,
+        "min": 15212,
+        "max": 17760
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 36
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26592.5,
+        "min": 26388,
+        "max": 26795
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 36
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41224.0,
+        "min": 41076,
+        "max": 41416
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.178428113313841,
+        "min": -0.5623897886516875,
+        "max": 1.2763276155371308
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 38
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26438.0,
+        "min": 26346,
+        "max": 26741
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 32.0,
+        "min": 32,
+        "max": 36
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41082.0,
+        "min": 41032,
+        "max": 41340
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.15217051173471252,
+        "min": -0.17594281124499433,
+        "max": 0.5439646993416836
+      }
+    }
+  },
+  {
+    "relay": "aiomoqt",
+    "subscriptions": 4,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 104.0,
+        "min": 104,
+        "max": 104
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 26430.0,
+        "min": 25335,
+        "max": 27452
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 104.0,
+        "min": 104,
+        "max": 104
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 39592.0,
+        "min": 38532,
+        "max": 40628
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.41285949813406053,
+        "min": -0.8770228437399217,
+        "max": 0.7667935472844922
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 45.5,
+        "min": 44,
+        "max": 47
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 25493.5,
+        "min": 25443,
+        "max": 25769
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 44.0,
+        "min": 44,
+        "max": 44
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41158.0,
+        "min": 41116,
+        "max": 41328
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.11929547949444697,
+        "min": -0.45893854048619964,
+        "max": 0.42728998792273076
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 44.0,
+        "min": 44,
+        "max": 2092
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 25489.5,
+        "min": 25339,
+        "max": 27434
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 44.0,
+        "min": 44,
+        "max": 2092
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41188.0,
+        "min": 40948,
+        "max": 43040
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.20270242515028736,
+        "min": -0.9582548669257376,
+        "max": 0.3028282529082982
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscriptions": 4,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 154.0,
+        "min": 84,
+        "max": 172
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 3718.0,
+        "min": 3622,
+        "max": 3758
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 154.0,
+        "min": 84,
+        "max": 172
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 10762.0,
+        "min": 10664,
+        "max": 10816
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.009400959359505523,
+        "min": -0.09978279060153916,
+        "max": 0.1498888960964569
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 44.0,
+        "min": 44,
+        "max": 51
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26516.5,
+        "min": 26415,
+        "max": 26703
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 44.0,
+        "min": 44,
+        "max": 48
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41214.0,
+        "min": 41164,
+        "max": 41360
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.04322955116879812,
+        "min": -0.450407673097887,
+        "max": 0.4087562675772438
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 44.0,
+        "min": 44,
+        "max": 47
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26480.0,
+        "min": 26363,
+        "max": 26645
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 44.0,
+        "min": 44,
+        "max": 44
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41132.0,
+        "min": 41088,
+        "max": 41288
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.18393309378486622,
+        "min": -0.8047756868798719,
+        "max": 0.493138423743789
+      }
+    }
+  },
+  {
+    "relay": "moqtail",
+    "subscriptions": 4,
+    "passed": 6,
+    "trials": 6,
+    "metrics": {
+      "relay.pss_kib_delta": {
+        "n": 6,
+        "median": 398.0,
+        "min": 252,
+        "max": 588
+      },
+      "relay.pss_kib": {
+        "n": 6,
+        "median": 13395.0,
+        "min": 13098,
+        "max": 13499
+      },
+      "relay.rss_kib_delta": {
+        "n": 6,
+        "median": 398.0,
+        "min": 252,
+        "max": 588
+      },
+      "relay.rss_kib": {
+        "n": 6,
+        "median": 15602.0,
+        "min": 15356,
+        "max": 15836
+      },
+      "relay.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "publisher.pss_kib_delta": {
+        "n": 6,
+        "median": 48.0,
+        "min": 12,
+        "max": 51
+      },
+      "publisher.pss_kib": {
+        "n": 6,
+        "median": 26532.5,
+        "min": 26435,
+        "max": 26819
+      },
+      "publisher.rss_kib_delta": {
+        "n": 6,
+        "median": 48.0,
+        "min": 44,
+        "max": 48
+      },
+      "publisher.rss_kib": {
+        "n": 6,
+        "median": 41244.0,
+        "min": 41012,
+        "max": 41368
+      },
+      "publisher.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.16849552538125523,
+        "min": -1.066264885888673,
+        "max": 0.2304664426624803
+      },
+      "subscriber.pss_kib_delta": {
+        "n": 6,
+        "median": 63.5,
+        "min": 44,
+        "max": 2088
+      },
+      "subscriber.pss_kib": {
+        "n": 6,
+        "median": 26581.5,
+        "min": 26427,
+        "max": 28520
+      },
+      "subscriber.rss_kib_delta": {
+        "n": 6,
+        "median": 78.0,
+        "min": 44,
+        "max": 2088
+      },
+      "subscriber.rss_kib": {
+        "n": 6,
+        "median": 41226.0,
+        "min": 40956,
+        "max": 43116
+      },
+      "subscriber.cpu_ms_per_s_delta": {
+        "n": 6,
+        "median": -0.23368010735204447,
+        "min": -1.269971880770389,
+        "max": -0.047294471267058213
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+--- upstream/moq-sub.c
++++ measured/moq-sub.c
+@@ -347,6 +347,7 @@
+ 
+ static void imquic_demo_subscribe_accepted(imquic_connection *conn, uint64_t request_id, uint64_t track_alias,
+ 		imquic_moq_request_parameters *parameters, GList *track_properties) {
++	IMQUIC_PRINT("BENCH_READY\n"); fflush(stdout);
+ 	IMQUIC_LOG(IMQUIC_LOG_INFO, "[%s] Subscription %"SCNu64" accepted (expires=%"SCNu64"; %s order, %d properties)\n",
+ 		imquic_get_connection_name(conn), request_id, parameters->expires,
+ 		imquic_moq_group_order_str(parameters->group_order),
+@@ -580,6 +581,18 @@
+ }
+ 
+ static void imquic_demo_incoming_object(imquic_connection *conn, imquic_moq_object *object) {
++    static unsigned bench_count = 0, bench_errors = 0;
++    if(object->payload_len > 0) {
++        if(object->group_id != 0 || object->object_id != bench_count || object->payload_len != 64)
++            bench_errors++;
++        for(size_t i=0; i<object->payload_len; ++i)
++            if(object->payload[i] != 't') { bench_errors++; break; }
++        bench_count++;
++        if(bench_count == 50) {
++            IMQUIC_PRINT("BENCH_RECEIVED %u %u\n", bench_count, bench_errors); fflush(stdout);
++        }
++    }
++
+ 	/* We received an object */
+ 	IMQUIC_LOG(IMQUIC_LOG_INFO, "[%s] Incoming object: reqid=%"SCNu64", alias=%"SCNu64", group=%"SCNu64", subgroup=%"SCNu64" (first=%d), id=%"SCNu64", priority=%"SCNu8" (%s), payload=%zu bytes, properties=%d, delivery=%s, status=%s, eos=%d\n",
+ 		imquic_get_connection_name(conn), object->request_id, object->track_alias,
+@@ -940,7 +953,7 @@
+ 		IMQUIC_CONFIG_INIT,
+ 		IMQUIC_CONFIG_TLS_CERT, options.cert_pem,
+ 		IMQUIC_CONFIG_TLS_KEY, options.cert_key,
+-		IMQUIC_CONFIG_TLS_NO_VERIFY, TRUE,
++		IMQUIC_CONFIG_TLS_NO_VERIFY, FALSE,
+ 		IMQUIC_CONFIG_LOCAL_BIND, options.ip,
+ 		IMQUIC_CONFIG_LOCAL_PORT, options.port,
+ 		IMQUIC_CONFIG_REMOTE_HOST, options.remote_host,

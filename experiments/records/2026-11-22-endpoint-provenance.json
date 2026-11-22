@@ -1,0 +1,26 @@
+{
+  "source_sha256": "d3bea0eefa6a01dca07388db16f23bb870f9ec7e4e06cbac81183847d843042d",
+  "conditions": "experiments/endpoints/README.md",
+  "seed": 22023,
+  "planned_trials": 36,
+  "repositories": {
+    ".scratch/endpoint-moqtail": "2c3efc60659fec3dfda5ded56581236a4035e8f1",
+    ".scratch/endpoint-moxygen": "00f2d74b345a0fe10ca518f5e6f8ced7d09c018e",
+    ".scratch/mcu-quicr-rs/quicr-sys/libquicr": "cc5530ead448ffb59e08a6ce960e499e1d29c39f"
+  },
+  "binaries_sha256": {
+    "moqtail-bench-client": "787585d0604924a49318cbd069e0259073225df1fcb899fab1885131f2b817b3",
+    "imquic-bench-pub": "589bade77941da7b017bfb8bec5f1b0fd5fed9682b022228875394062ce5f295",
+    "imquic-bench-sub": "a7ecf86add378cfeb8d9a7f2db26e79d9ba1942a27cd206f873c68d02f00f3d3",
+    "libimquic.so.0": "9a3a3dbdbe80e120ab609e2877483759089bfe44fdaa5be2c3e1e9363b6b86f7"
+  },
+  "kernel": "6.12.90+deb13.1-amd64",
+  "architecture": "x86_64",
+  "rustc": "rustc 1.98.0 (88d9e12ae 2026-08-18)",
+  "clang": "Debian clang version 19.1.7 (3+b1)",
+  "native_runtime_packages": [
+    "libglib2.0-0t64 2.84.4-3~deb13u3",
+    "libjansson4 2.14-2+b3",
+    "libssl3t64 3.5.7-1~deb13u2"
+  ]
+}

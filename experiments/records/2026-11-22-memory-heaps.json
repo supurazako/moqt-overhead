@@ -1,0 +1,344 @@
+[
+  {
+    "role": "publisher",
+    "current_peak": [
+      14952706,
+      17386319
+    ],
+    "top": [
+      {
+        "file": "<frozen importlib._bootstrap_external>",
+        "line": 784,
+        "bytes": 7508108,
+        "count": 52883
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 488,
+        "bytes": 1172989,
+        "count": 10989
+      },
+      {
+        "file": "<unknown>",
+        "line": 0,
+        "bytes": 897951,
+        "count": 1985
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 498,
+        "bytes": 307323,
+        "count": 2550
+      },
+      {
+        "file": "payload.py",
+        "line": 9,
+        "bytes": 262577,
+        "count": 2
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 1263,
+        "bytes": 148492,
+        "count": 682
+      },
+      {
+        "file": "<frozen abc>",
+        "line": 106,
+        "bytes": 137206,
+        "count": 508
+      },
+      {
+        "file": "enum.py",
+        "line": 568,
+        "bytes": 96928,
+        "count": 276
+      }
+    ]
+  },
+  {
+    "role": "subscriber",
+    "current_peak": [
+      15262714,
+      17696413
+    ],
+    "top": [
+      {
+        "file": "<frozen importlib._bootstrap_external>",
+        "line": 784,
+        "bytes": 7507924,
+        "count": 52880
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 488,
+        "bytes": 1173291,
+        "count": 10995
+      },
+      {
+        "file": "<unknown>",
+        "line": 0,
+        "bytes": 897951,
+        "count": 1985
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 498,
+        "bytes": 307323,
+        "count": 2550
+      },
+      {
+        "file": "payload.py",
+        "line": 9,
+        "bytes": 262577,
+        "count": 2
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 1263,
+        "bytes": 148492,
+        "count": 682
+      },
+      {
+        "file": "<frozen abc>",
+        "line": 106,
+        "bytes": 137206,
+        "count": 508
+      },
+      {
+        "file": "measure.py",
+        "line": 76,
+        "bytes": 131072,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "role": "publisher",
+    "current_peak": [
+      14952699,
+      17386313
+    ],
+    "top": [
+      {
+        "file": "<frozen importlib._bootstrap_external>",
+        "line": 784,
+        "bytes": 7508108,
+        "count": 52883
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 488,
+        "bytes": 1173244,
+        "count": 10994
+      },
+      {
+        "file": "<unknown>",
+        "line": 0,
+        "bytes": 897951,
+        "count": 1985
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 498,
+        "bytes": 307323,
+        "count": 2550
+      },
+      {
+        "file": "payload.py",
+        "line": 9,
+        "bytes": 262577,
+        "count": 2
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 1263,
+        "bytes": 148492,
+        "count": 682
+      },
+      {
+        "file": "<frozen abc>",
+        "line": 106,
+        "bytes": 137206,
+        "count": 508
+      },
+      {
+        "file": "enum.py",
+        "line": 568,
+        "bytes": 96928,
+        "count": 276
+      }
+    ]
+  },
+  {
+    "role": "subscriber",
+    "current_peak": [
+      15264769,
+      17698148
+    ],
+    "top": [
+      {
+        "file": "<frozen importlib._bootstrap_external>",
+        "line": 784,
+        "bytes": 7507924,
+        "count": 52880
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 488,
+        "bytes": 1173456,
+        "count": 10999
+      },
+      {
+        "file": "<unknown>",
+        "line": 0,
+        "bytes": 897951,
+        "count": 1985
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 498,
+        "bytes": 307323,
+        "count": 2550
+      },
+      {
+        "file": "payload.py",
+        "line": 9,
+        "bytes": 262577,
+        "count": 2
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 1263,
+        "bytes": 148492,
+        "count": 682
+      },
+      {
+        "file": "<frozen abc>",
+        "line": 106,
+        "bytes": 137206,
+        "count": 508
+      },
+      {
+        "file": "measure.py",
+        "line": 76,
+        "bytes": 131072,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "role": "publisher",
+    "current_peak": [
+      14953724,
+      17387498
+    ],
+    "top": [
+      {
+        "file": "<frozen importlib._bootstrap_external>",
+        "line": 784,
+        "bytes": 7508108,
+        "count": 52883
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 488,
+        "bytes": 1173764,
+        "count": 11005
+      },
+      {
+        "file": "<unknown>",
+        "line": 0,
+        "bytes": 897951,
+        "count": 1985
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 498,
+        "bytes": 307323,
+        "count": 2550
+      },
+      {
+        "file": "payload.py",
+        "line": 9,
+        "bytes": 262577,
+        "count": 2
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 1263,
+        "bytes": 148492,
+        "count": 682
+      },
+      {
+        "file": "<frozen abc>",
+        "line": 106,
+        "bytes": 137206,
+        "count": 508
+      },
+      {
+        "file": "enum.py",
+        "line": 568,
+        "bytes": 96928,
+        "count": 276
+      }
+    ]
+  },
+  {
+    "role": "subscriber",
+    "current_peak": [
+      15264042,
+      17697645
+    ],
+    "top": [
+      {
+        "file": "<frozen importlib._bootstrap_external>",
+        "line": 784,
+        "bytes": 7507924,
+        "count": 52880
+      },
+      {
+        "file": "<frozen importlib._bootstrap>",
+        "line": 488,
+        "bytes": 1173253,
+        "count": 10994
+      },
+      {
+        "file": "<unknown>",
+        "line": 0,
+        "bytes": 897951,
+        "count": 1985
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 498,
+        "bytes": 307323,
+        "count": 2550
+      },
+      {
+        "file": "payload.py",
+        "line": 9,
+        "bytes": 262577,
+        "count": 2
+      },
+      {
+        "file": "dataclasses.py",
+        "line": 1263,
+        "bytes": 148492,
+        "count": 682
+      },
+      {
+        "file": "<frozen abc>",
+        "line": 106,
+        "bytes": 137206,
+        "count": 508
+      },
+      {
+        "file": "measure.py",
+        "line": 76,
+        "bytes": 131072,
+        "count": 1
+      }
+    ]
+  }
+]

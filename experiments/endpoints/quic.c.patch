@@ -1,0 +1,18 @@
+--- upstream/quic.c
++++ measured/quic.c
+@@ -8,6 +8,7 @@
+  * \ingroup Core
+  *  */
+ 
++#include <stdlib.h>
+ #include <picoquic.h>
+ #include <picoquic_config.h>
+ #include <picoquic_internal.h>
+@@ -116,6 +117,7 @@
+ 		return -1;
+ 	picoquic_quic_config_t piconfig;
+ 	picoquic_config_init(&piconfig);
++	piconfig.root_trust_file = getenv("MOQ_TEST_CA_FILE");
+ 	if(endpoint->is_server) {
+ 		piconfig.server_port = config->local_port;
+ 		piconfig.server_cert_file = config->cert_pem;

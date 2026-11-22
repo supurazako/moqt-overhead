@@ -1,0 +1,463 @@
+{
+  "trials": 36,
+  "failed_cases": [],
+  "statistic": "final window sample per trial",
+  "groups": {
+    "publisher/moqtail/connected_idle": {
+      "pss_kib": {
+        "n": 6,
+        "median": 5986.0,
+        "minimum": 5863,
+        "maximum": 5993
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 952.0,
+        "minimum": 940,
+        "maximum": 956
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 5037.0,
+        "minimum": 4911,
+        "maximum": 5042
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 5004.0,
+        "minimum": 4876,
+        "maximum": 5004
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 952.0,
+        "minimum": 940,
+        "maximum": 956
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "publisher/moqtail/transfer": {
+      "pss_kib": {
+        "n": 6,
+        "median": 6188.5,
+        "minimum": 5999,
+        "maximum": 6194
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 960.0,
+        "minimum": 956,
+        "maximum": 968
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 5228.0,
+        "minimum": 5039,
+        "maximum": 5229
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 5196.0,
+        "minimum": 5004,
+        "maximum": 5196
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 960.0,
+        "minimum": 956,
+        "maximum": 968
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "publisher/imquic/connected_idle": {
+      "pss_kib": {
+        "n": 6,
+        "median": 3665.0,
+        "minimum": 3599,
+        "maximum": 3717
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 1540.0,
+        "minimum": 1536,
+        "maximum": 1540
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 2125.0,
+        "minimum": 2063,
+        "maximum": 2177
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 1470.0,
+        "minimum": 1408,
+        "maximum": 1524
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 1540.0,
+        "minimum": 1536,
+        "maximum": 1540
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "publisher/imquic/transfer": {
+      "pss_kib": {
+        "n": 6,
+        "median": 3696.5,
+        "minimum": 3676,
+        "maximum": 3750
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 1572.0,
+        "minimum": 1568,
+        "maximum": 1572
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 2126.5,
+        "minimum": 2104,
+        "maximum": 2178
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 1540.0,
+        "minimum": 1516,
+        "maximum": 1588
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 1572.0,
+        "minimum": 1568,
+        "maximum": 1572
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "publisher/aiomoqt/connected_idle": {
+      "pss_kib": {
+        "n": 6,
+        "median": 27227.0,
+        "minimum": 27160,
+        "maximum": 27435
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 22468.0,
+        "minimum": 22468,
+        "maximum": 22472
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 1841.5,
+        "minimum": 1817,
+        "maximum": 1863
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 16.0,
+        "minimum": 0,
+        "maximum": 32
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 22710.0,
+        "minimum": 22540,
+        "maximum": 22984
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 2915.5,
+        "minimum": 2843,
+        "maximum": 3138
+      }
+    },
+    "publisher/aiomoqt/transfer": {
+      "pss_kib": {
+        "n": 6,
+        "median": 26065.0,
+        "minimum": 26043,
+        "maximum": 26284
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 22492.0,
+        "minimum": 22488,
+        "maximum": 22496
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 1546.5,
+        "minimum": 1524,
+        "maximum": 1563
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 10.0,
+        "minimum": 0,
+        "maximum": 20
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 22540.0,
+        "minimum": 22492,
+        "maximum": 22816
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 2018.5,
+        "minimum": 1993,
+        "maximum": 2251
+      }
+    },
+    "subscriber/moqtail/connected_idle": {
+      "pss_kib": {
+        "n": 6,
+        "median": 6040.0,
+        "minimum": 5912,
+        "maximum": 6137
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 948.0,
+        "minimum": 936,
+        "maximum": 968
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 5101.5,
+        "minimum": 4972,
+        "maximum": 5169
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 5068.0,
+        "minimum": 4940,
+        "maximum": 5132
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 948.0,
+        "minimum": 936,
+        "maximum": 968
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "subscriber/moqtail/transfer": {
+      "pss_kib": {
+        "n": 6,
+        "median": 6133.0,
+        "minimum": 6060,
+        "maximum": 6209
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 968.0,
+        "minimum": 960,
+        "maximum": 988
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 5165.5,
+        "minimum": 5100,
+        "maximum": 5233
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 5132.0,
+        "minimum": 5068,
+        "maximum": 5196
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 968.0,
+        "minimum": 960,
+        "maximum": 988
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "subscriber/imquic/connected_idle": {
+      "pss_kib": {
+        "n": 6,
+        "median": 3646.0,
+        "minimum": 3598,
+        "maximum": 3689
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 1554.0,
+        "minimum": 1552,
+        "maximum": 1556
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 2094.0,
+        "minimum": 2042,
+        "maximum": 2133
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 1500.0,
+        "minimum": 1460,
+        "maximum": 1544
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 1554.0,
+        "minimum": 1552,
+        "maximum": 1556
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "subscriber/imquic/transfer": {
+      "pss_kib": {
+        "n": 6,
+        "median": 3655.0,
+        "minimum": 3598,
+        "maximum": 3704
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 1554.0,
+        "minimum": 1552,
+        "maximum": 1556
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 2101.0,
+        "minimum": 2042,
+        "maximum": 2152
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 1504.0,
+        "minimum": 1460,
+        "maximum": 1560
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 1554.0,
+        "minimum": 1552,
+        "maximum": 1556
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      }
+    },
+    "subscriber/aiomoqt/connected_idle": {
+      "pss_kib": {
+        "n": 6,
+        "median": 25992.0,
+        "minimum": 25949,
+        "maximum": 26083
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 22484.0,
+        "minimum": 22472,
+        "maximum": 22488
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 1535.5,
+        "minimum": 1504,
+        "maximum": 1542
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 14.0,
+        "minimum": 0,
+        "maximum": 16
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 22518.0,
+        "minimum": 22480,
+        "maximum": 22552
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 1991.5,
+        "minimum": 1930,
+        "maximum": 2054
+      }
+    },
+    "subscriber/aiomoqt/transfer": {
+      "pss_kib": {
+        "n": 6,
+        "median": 26083.5,
+        "minimum": 26043,
+        "maximum": 26177
+      },
+      "pss_anon_kib": {
+        "n": 6,
+        "median": 22574.0,
+        "minimum": 22556,
+        "maximum": 22576
+      },
+      "pss_file_kib": {
+        "n": 6,
+        "median": 1542.5,
+        "minimum": 1510,
+        "maximum": 1548
+      },
+      "private_clean_kib": {
+        "n": 6,
+        "median": 14.0,
+        "minimum": 0,
+        "maximum": 16
+      },
+      "private_dirty_kib": {
+        "n": 6,
+        "median": 22604.0,
+        "minimum": 22564,
+        "maximum": 22644
+      },
+      "other_pss_residual_kib": {
+        "n": 6,
+        "median": 1991.0,
+        "minimum": 1930,
+        "maximum": 2054
+      }
+    }
+  }
+}

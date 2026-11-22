@@ -1,0 +1,21 @@
+{
+  "kernel": "6.12.90+deb13.1-amd64",
+  "architecture": "x86_64",
+  "python": "3.13.5",
+  "packages": {
+    "aiomoqt": "0.14.1",
+    "aiopquic": "0.7.1"
+  },
+  "sha256": {
+    "experiments/resources/measure.py": "71430c38a7fdc6fcbad44af7b00f3a2cdb06c72e5e35fd31ba424e22c0178e25",
+    "experiments/resources/process-clock.patch": "1903ca1010e2fa24c5fd0aa852285a9ce1c7d06dd5aa5ccb6971eb6f2ee1ba47",
+    ".scratch/native/imquic-moq-relay": "9c4f9966f8ad8eadf4c2e53fa4ccd3001a05307e73d5ba09beafdd89b3c6c0de",
+    ".scratch/native/libimquic.so.0": "719482852fb3428a6ca099f560a965d624a058b223ae347f3c2464c2e0232e5e",
+    ".scratch/native/moqtail": "da46a8f65745c285576f6365963f38bdc5491a26a4732030da692a3c69714428"
+  },
+  "host_runtime_packages": [
+    "libglib2.0-0t64 2.84.4-3~deb13u3",
+    "libjansson4 2.14-2+b3",
+    "libssl3t64 3.5.7-1~deb13u2"
+  ]
+}

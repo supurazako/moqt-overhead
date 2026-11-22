@@ -1,0 +1,30 @@
+--- upstream/publisher.rs
++++ measured/publisher.rs
+@@ -347,6 +347,7 @@
+   // The response returns on this same request stream, so it needs no request id.
+   match request_stream.next_message().await {
+     Ok(ControlMessage::RequestOk(_)) => {
++      println!("BENCH_READY");
+       info!("Namespace published successfully");
+       Ok(request_stream)
+     }
+@@ -1066,18 +1067,7 @@
+   Ok(())
+ }
+ 
+-fn generate_payload(size: usize) -> Vec<u8> {
+-  // Simple PRNG for reproducible test payloads
+-  let mut seed: u64 = 0x123456789abcdef0;
+-  (0..size)
+-    .map(|_| {
+-      seed ^= seed << 13;
+-      seed ^= seed >> 7;
+-      seed ^= seed << 17;
+-      (seed & 0xFF) as u8
+-    })
+-    .collect()
+-}
++fn generate_payload(size: usize) -> Vec<u8> { vec![b't'; size] }
+ 
+ #[cfg(test)]
+ mod tests {

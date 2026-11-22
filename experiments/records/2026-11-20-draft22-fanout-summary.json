@@ -1,0 +1,3432 @@
+[
+  {
+    "relay": "aiomoqt",
+    "subscribers": 1,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 720,
+    "objects_expected": 720,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 23070.5,
+        "min": 23047,
+        "max": 23122
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35484.0,
+        "min": 35396,
+        "max": 35644
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 27393.0,
+        "min": 27134,
+        "max": 27512
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 38336.0,
+        "min": 38080,
+        "max": 38388
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 2.757,
+        "min": 1.992,
+        "max": 3.432
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 23078.5,
+        "min": 23033,
+        "max": 23145
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 35430.0,
+        "min": 35408,
+        "max": 35568
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 25866.0,
+        "min": 25838,
+        "max": 25957
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41802.0,
+        "min": 41640,
+        "max": 41940
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.08,
+        "min": 2.094,
+        "max": 3.431
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 25420.5,
+        "min": 25242,
+        "max": 25601
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 38936.0,
+        "min": 38532,
+        "max": 38996
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.146,
+        "min": 1.855,
+        "max": 3.516
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 25875.0,
+        "min": 25822,
+        "max": 26169
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 41806.0,
+        "min": 41712,
+        "max": 41992
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.103,
+        "min": 1.874,
+        "max": 3.439
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 26085.5,
+        "min": 25991,
+        "max": 26401
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 42110.0,
+        "min": 41788,
+        "max": 42404
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 26.104,
+        "min": 24.16,
+        "max": 27.313
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 27068.0,
+        "min": 26887,
+        "max": 27506
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 40672.0,
+        "min": 40260,
+        "max": 40964
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 42.683,
+        "min": 38.461,
+        "max": 47.209
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 26173.0,
+        "min": 26148,
+        "max": 26478
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 42156.0,
+        "min": 42088,
+        "max": 42336
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 24.225,
+        "min": 23.419,
+        "max": 25.014
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 10.202,
+        "min": 9.26,
+        "max": 10.72
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 9.928,
+        "min": 9.107,
+        "max": 12.072
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.617,
+        "min": 1.429,
+        "max": 1.756
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 0.92,
+        "min": 0.635,
+        "max": 0.991
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 9.147,
+        "min": 7.783,
+        "max": 9.569
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 0.873,
+        "min": 0.776,
+        "max": 1.025
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 6,
+        "median": 5.412,
+        "min": 4.497,
+        "max": 6.626
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 6,
+        "median": 1394.088,
+        "min": 1393.242,
+        "max": 1396.405
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1011770.5,
+        "min": 1011742,
+        "max": 1011895
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 11118.0,
+        "min": 10898,
+        "max": 11888
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 301.0,
+        "min": 253,
+        "max": 442
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 150.0,
+        "min": 146,
+        "max": 164
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 10512.0,
+        "min": 10457,
+        "max": 10519
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 1012253.0,
+        "min": 1012198,
+        "max": 1012308
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 138.0,
+        "min": 137,
+        "max": 138
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 157.0,
+        "min": 156,
+        "max": 158
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 1023371.0,
+        "min": 1023096,
+        "max": 1024141
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 307.0,
+        "min": 302,
+        "max": 321
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1022258.5,
+        "min": 1022247,
+        "max": 1022407
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 439.0,
+        "min": 391,
+        "max": 580
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscribers": 1,
+    "passed": 0,
+    "trials": 6,
+    "objects_received": 714,
+    "objects_expected": 720,
+    "missing_locations": {
+      "3.29": 6
+    },
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 23489.5,
+        "min": 23424,
+        "max": 23555
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35476.0,
+        "min": 35388,
+        "max": 35608
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 3016.0,
+        "min": 2957,
+        "max": 3056
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 9944.0,
+        "min": 9792,
+        "max": 10136
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.368,
+        "min": 0.306,
+        "max": 0.431
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 23533.0,
+        "min": 23420,
+        "max": 23600
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 35466.0,
+        "min": 35388,
+        "max": 35552
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 26910.5,
+        "min": 26805,
+        "max": 27133
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41858.0,
+        "min": 41680,
+        "max": 41964
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.042,
+        "min": 1.931,
+        "max": 3.243
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 3692.5,
+        "min": 3604,
+        "max": 3705
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 10732.0,
+        "min": 10632,
+        "max": 10800
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.344,
+        "min": 0.271,
+        "max": 0.407
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 26932.0,
+        "min": 26758,
+        "max": 27127
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 41712.0,
+        "min": 41632,
+        "max": 42020
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.015,
+        "min": 2.842,
+        "max": 3.16
+      }
+    },
+    "incomplete_transfer": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 27050.5,
+        "min": 26961,
+        "max": 27289
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 42012.0,
+        "min": 41832,
+        "max": 42120
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 26.306,
+        "min": 21.833,
+        "max": 29.04
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 4696.0,
+        "min": 4569,
+        "max": 4712
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 11740.0,
+        "min": 11504,
+        "max": 11872
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 80.422,
+        "min": 75.409,
+        "max": 82.575
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 27314.0,
+        "min": 27106,
+        "max": 27475
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 42126.0,
+        "min": 41980,
+        "max": 42376
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 27.943,
+        "min": 26.172,
+        "max": 29.742
+      }
+    },
+    "successful_trials": {}
+  },
+  {
+    "relay": "moqtail",
+    "subscribers": 1,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 720,
+    "objects_expected": 720,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 23452.5,
+        "min": 23426,
+        "max": 23475
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35422.0,
+        "min": 35372,
+        "max": 35596
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 10107.5,
+        "min": 9992,
+        "max": 10213
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 12386.0,
+        "min": 12244,
+        "max": 12496
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 23448.0,
+        "min": 23433,
+        "max": 23619
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 35390.0,
+        "min": 35380,
+        "max": 35612
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 26868.0,
+        "min": 26817,
+        "max": 26914
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41700.0,
+        "min": 41648,
+        "max": 41780
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.119,
+        "min": 1.958,
+        "max": 3.26
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 13251.5,
+        "min": 13003,
+        "max": 13407
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 15504.0,
+        "min": 15280,
+        "max": 15660
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 26870.5,
+        "min": 26799,
+        "max": 27106
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 41732.0,
+        "min": 41656,
+        "max": 41900
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.05,
+        "min": 2.504,
+        "max": 3.319
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 29335.0,
+        "min": 27333,
+        "max": 31485
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 44234.0,
+        "min": 42188,
+        "max": 46280
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 24.995,
+        "min": 22.512,
+        "max": 28.538
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 14461.5,
+        "min": 14371,
+        "max": 14548
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 16738.0,
+        "min": 16516,
+        "max": 16832
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 33.981,
+        "min": 31.389,
+        "max": 36.945
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 27220.5,
+        "min": 27152,
+        "max": 27451
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 42082.0,
+        "min": 42008,
+        "max": 42248
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 20.356,
+        "min": 19.132,
+        "max": 21.179
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 8.227,
+        "min": 5.139,
+        "max": 12.649
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 11.509,
+        "min": 9.623,
+        "max": 12.019
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.794,
+        "min": 1.532,
+        "max": 3.397
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 0.533,
+        "min": 0.468,
+        "max": 0.649
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 11.75,
+        "min": 7.082,
+        "max": 12.179
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.227,
+        "min": 0.78,
+        "max": 3.014
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 6,
+        "median": 5.384,
+        "min": 3.854,
+        "max": 7.292
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 6,
+        "median": 1397.799,
+        "min": 1396.062,
+        "max": 1404.51
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1011799.0,
+        "min": 1011672,
+        "max": 1012001
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 12345.0,
+        "min": 11866,
+        "max": 12623
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 326.0,
+        "min": 233,
+        "max": 391
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 148.0,
+        "min": 135,
+        "max": 156
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 10036.5,
+        "min": 10009,
+        "max": 10089
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 1015088.5,
+        "min": 1015078,
+        "max": 1015112
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 129.5,
+        "min": 129,
+        "max": 131
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 133.5,
+        "min": 133,
+        "max": 134
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 1027453.0,
+        "min": 1026944,
+        "max": 1027705
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 282.0,
+        "min": 268,
+        "max": 289
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1021856.5,
+        "min": 1021681,
+        "max": 1022065
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 456.0,
+        "min": 363,
+        "max": 520
+      }
+    }
+  },
+  {
+    "relay": "aiomoqt",
+    "subscribers": 2,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 1440,
+    "objects_expected": 1440,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 22781.0,
+        "min": 22761,
+        "max": 22831
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35442.0,
+        "min": 35400,
+        "max": 35592
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 26907.0,
+        "min": 26856,
+        "max": 27103
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 38144.0,
+        "min": 38064,
+        "max": 38388
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.087,
+        "min": 2.906,
+        "max": 3.328
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 45606.0,
+        "min": 45416,
+        "max": 45724
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 70824.0,
+        "min": 69816,
+        "max": 71292
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 25223.5,
+        "min": 25158,
+        "max": 25363
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41812.0,
+        "min": 41636,
+        "max": 42008
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.106,
+        "min": 2.472,
+        "max": 3.145
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 24825.5,
+        "min": 24781,
+        "max": 26810
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 38726.0,
+        "min": 38612,
+        "max": 40712
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.106,
+        "min": 2.722,
+        "max": 3.213
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 50407.0,
+        "min": 50219,
+        "max": 50647
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 83318.0,
+        "min": 82728,
+        "max": 83844
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 6.131,
+        "min": 4.92,
+        "max": 6.395
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 25368.5,
+        "min": 25303,
+        "max": 25500
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 41960.0,
+        "min": 41784,
+        "max": 42152
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 24.829,
+        "min": 23.676,
+        "max": 26.076
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 26750.0,
+        "min": 26653,
+        "max": 28706
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 40798.0,
+        "min": 40584,
+        "max": 42704
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 49.714,
+        "min": 46.985,
+        "max": 53.822
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 51006.0,
+        "min": 50802,
+        "max": 51240
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 84042.0,
+        "min": 83400,
+        "max": 84580
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 49.976,
+        "min": 48.409,
+        "max": 50.81
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 9.7,
+        "min": 7.476,
+        "max": 11.169
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 9.982,
+        "min": 9.025,
+        "max": 10.314
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.647,
+        "min": 0.78,
+        "max": 1.691
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 0.951,
+        "min": 0.585,
+        "max": 1.389
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 12,
+        "median": 8.443,
+        "min": 6.425,
+        "max": 10.235
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 12,
+        "median": 1.042,
+        "min": 0.652,
+        "max": 1.549
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 12,
+        "median": 5.374,
+        "min": 3.965,
+        "max": 7.005
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 12,
+        "median": 1398.172,
+        "min": 1390.473,
+        "max": 1401.877
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1011837.5,
+        "min": 1011743,
+        "max": 1011932
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 10980.5,
+        "min": 10843,
+        "max": 11228
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 261.5,
+        "min": 226,
+        "max": 290
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 147.5,
+        "min": 145,
+        "max": 152
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 21004.0,
+        "min": 20804,
+        "max": 21134
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 2024273.5,
+        "min": 2024190,
+        "max": 2024411
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 275.5,
+        "min": 272,
+        "max": 278
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 309.5,
+        "min": 308,
+        "max": 312
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 2035281.5,
+        "min": 2035089,
+        "max": 2035639
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 457.5,
+        "min": 454,
+        "max": 464
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1032829.5,
+        "min": 1032650,
+        "max": 1032962
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 537.0,
+        "min": 498,
+        "max": 565
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscribers": 2,
+    "passed": 0,
+    "trials": 6,
+    "objects_received": 1428,
+    "objects_expected": 1440,
+    "missing_locations": {
+      "3.29": 12
+    },
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 23026.0,
+        "min": 23013,
+        "max": 23059
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35416.0,
+        "min": 35384,
+        "max": 35560
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 3025.0,
+        "min": 3005,
+        "max": 3046
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 10032.0,
+        "min": 9972,
+        "max": 10124
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.434,
+        "min": 0.372,
+        "max": 0.449
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 46115.0,
+        "min": 46018,
+        "max": 46256
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 70918.0,
+        "min": 70832,
+        "max": 71036
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 25763.0,
+        "min": 25730,
+        "max": 25862
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41788.0,
+        "min": 41680,
+        "max": 41880
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.155,
+        "min": 2.859,
+        "max": 3.227
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 3613.5,
+        "min": 3606,
+        "max": 3708
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 10772.0,
+        "min": 10728,
+        "max": 10860
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.392,
+        "min": 0.329,
+        "max": 0.406
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 51636.5,
+        "min": 51450,
+        "max": 51713
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 83542.0,
+        "min": 83496,
+        "max": 83708
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 6.274,
+        "min": 4.201,
+        "max": 7.036
+      }
+    },
+    "incomplete_transfer": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 25911.5,
+        "min": 25882,
+        "max": 26016
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 41942.0,
+        "min": 41832,
+        "max": 42036
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 26.503,
+        "min": 23.477,
+        "max": 30.172
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 4692.0,
+        "min": 4069,
+        "max": 4728
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 11816.0,
+        "min": 11192,
+        "max": 11880
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 87.555,
+        "min": 80.52,
+        "max": 97.631
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 52292.5,
+        "min": 52106,
+        "max": 52385
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 84298.0,
+        "min": 84216,
+        "max": 84408
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 80.923,
+        "min": 77.8,
+        "max": 87.136
+      }
+    },
+    "successful_trials": {}
+  },
+  {
+    "relay": "moqtail",
+    "subscribers": 2,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 1440,
+    "objects_expected": 1440,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 23131.0,
+        "min": 23031,
+        "max": 23284
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35596.0,
+        "min": 35464,
+        "max": 35728
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 10163.0,
+        "min": 10068,
+        "max": 10343
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 12410.0,
+        "min": 12232,
+        "max": 12484
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 46138.0,
+        "min": 46014,
+        "max": 46222
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 70954.0,
+        "min": 70748,
+        "max": 71028
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 25881.5,
+        "min": 25724,
+        "max": 26087
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41964.0,
+        "min": 41628,
+        "max": 42048
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.089,
+        "min": 2.613,
+        "max": 3.545
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 14097.0,
+        "min": 13941,
+        "max": 14244
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 16308.0,
+        "min": 16068,
+        "max": 16480
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 51583.5,
+        "min": 51386,
+        "max": 51690
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 83558.0,
+        "min": 83260,
+        "max": 84020
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 6.21,
+        "min": 5.116,
+        "max": 7.171
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 26407.5,
+        "min": 26236,
+        "max": 26607
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 42518.0,
+        "min": 42140,
+        "max": 42568
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 27.837,
+        "min": 25.522,
+        "max": 31.677
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 15311.0,
+        "min": 15239,
+        "max": 15404
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 17506.0,
+        "min": 17368,
+        "max": 17640
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 44.367,
+        "min": 41.646,
+        "max": 48.156
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 52208.5,
+        "min": 52018,
+        "max": 52310
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 84266.0,
+        "min": 83908,
+        "max": 84712
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 43.565,
+        "min": 41.555,
+        "max": 44.589
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 11.726,
+        "min": 7.275,
+        "max": 12.537
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 10.921,
+        "min": 6.969,
+        "max": 12.331
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.371,
+        "min": 0.772,
+        "max": 3.097
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 0.552,
+        "min": 0.437,
+        "max": 0.633
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 12,
+        "median": 12.111,
+        "min": 9.47,
+        "max": 14.227
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 12,
+        "median": 1.858,
+        "min": 0.6,
+        "max": 5.204
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 12,
+        "median": 3.989,
+        "min": 0.576,
+        "max": 5.433
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 12,
+        "median": 1404.988,
+        "min": 1396.89,
+        "max": 1408.554
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1011866.5,
+        "min": 1011634,
+        "max": 1012009
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 12029.5,
+        "min": 11926,
+        "max": 12830
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 385.5,
+        "min": 293,
+        "max": 513
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 139.5,
+        "min": 136,
+        "max": 162
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 20149.0,
+        "min": 20018,
+        "max": 20288
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 2030143.5,
+        "min": 2030123,
+        "max": 2030193
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 261.0,
+        "min": 258,
+        "max": 264
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 265.5,
+        "min": 265,
+        "max": 267
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 2042168.0,
+        "min": 2042059,
+        "max": 2043023
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 405.0,
+        "min": 401,
+        "max": 429
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1032059.0,
+        "min": 1031710,
+        "max": 1032138
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 645.5,
+        "min": 557,
+        "max": 772
+      }
+    }
+  },
+  {
+    "relay": "aiomoqt",
+    "subscribers": 3,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 2160,
+    "objects_expected": 2160,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 22591.5,
+        "min": 22551,
+        "max": 22696
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35444.0,
+        "min": 35384,
+        "max": 35548
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 26951.0,
+        "min": 26668,
+        "max": 27003
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 38312.0,
+        "min": 38064,
+        "max": 38468
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.045,
+        "min": 2.607,
+        "max": 3.474
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 67728.5,
+        "min": 67658,
+        "max": 67812
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 106052.0,
+        "min": 105720,
+        "max": 106500
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 24772.5,
+        "min": 24704,
+        "max": 24957
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41830.0,
+        "min": 41620,
+        "max": 42036
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.006,
+        "min": 2.528,
+        "max": 3.161
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 24642.5,
+        "min": 24507,
+        "max": 24754
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 39106.0,
+        "min": 38700,
+        "max": 39248
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.182,
+        "min": 2.19,
+        "max": 3.291
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 74294.5,
+        "min": 74149,
+        "max": 74374
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 125192.0,
+        "min": 124896,
+        "max": 125560
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 8.165,
+        "min": 6.109,
+        "max": 10.123
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 24925.5,
+        "min": 24850,
+        "max": 33216
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 42018.0,
+        "min": 41768,
+        "max": 50240
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 24.302,
+        "min": 22.15,
+        "max": 27.334
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 26794.0,
+        "min": 26633,
+        "max": 26916
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 41358.0,
+        "min": 40932,
+        "max": 41516
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 59.994,
+        "min": 53.078,
+        "max": 64.723
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 75182.0,
+        "min": 75004,
+        "max": 75259
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 126232.0,
+        "min": 125992,
+        "max": 126604
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 76.558,
+        "min": 71.35,
+        "max": 91.544
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 12.04,
+        "min": 11.139,
+        "max": 14.646
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 10.199,
+        "min": 9.29,
+        "max": 12.089
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.7,
+        "min": 1.499,
+        "max": 1.911
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 0.769,
+        "min": 0.605,
+        "max": 1.089
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 18,
+        "median": 9.227,
+        "min": 6.781,
+        "max": 11.613
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 18,
+        "median": 1.033,
+        "min": 0.684,
+        "max": 2.213
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 18,
+        "median": 5.05,
+        "min": 3.989,
+        "max": 7.706
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 18,
+        "median": 1407.413,
+        "min": 1400.037,
+        "max": 1410.701
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1011863.5,
+        "min": 1011743,
+        "max": 1012034
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 11035.5,
+        "min": 10898,
+        "max": 11173
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 269.5,
+        "min": 235,
+        "max": 348
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 148.5,
+        "min": 146,
+        "max": 151
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 31764.0,
+        "min": 31488,
+        "max": 33343
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 3036323.5,
+        "min": 3035486,
+        "max": 3036483
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 418.0,
+        "min": 413,
+        "max": 446
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 472.5,
+        "min": 462,
+        "max": 810
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 3047379.0,
+        "min": 3046494,
+        "max": 3047522
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 621.0,
+        "min": 609,
+        "max": 958
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1043622.5,
+        "min": 1043334,
+        "max": 1045179
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 697.5,
+        "min": 649,
+        "max": 761
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscribers": 3,
+    "passed": 2,
+    "trials": 6,
+    "objects_received": 2148,
+    "objects_expected": 2160,
+    "missing_locations": {
+      "3.29": 12
+    },
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 22788.5,
+        "min": 22714,
+        "max": 22912
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35432.0,
+        "min": 35392,
+        "max": 35560
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 3011.0,
+        "min": 2923,
+        "max": 3043
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 9984.0,
+        "min": 9732,
+        "max": 10060
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.411,
+        "min": 0.392,
+        "max": 0.435
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 68291.5,
+        "min": 68203,
+        "max": 68391
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 106392.0,
+        "min": 105628,
+        "max": 106808
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 25200.0,
+        "min": 25083,
+        "max": 25280
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41916.0,
+        "min": 41732,
+        "max": 42020
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.113,
+        "min": 2.456,
+        "max": 3.29
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 3714.0,
+        "min": 3615,
+        "max": 3732
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 10798.0,
+        "min": 10668,
+        "max": 10860
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.398,
+        "min": 0.364,
+        "max": 0.447
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 75417.0,
+        "min": 75247,
+        "max": 75454
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 125352.0,
+        "min": 125204,
+        "max": 125552
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 8.347,
+        "min": 7.158,
+        "max": 9.408
+      }
+    },
+    "incomplete_transfer": {
+      "transfer.publisher.pss_kib": {
+        "n": 4,
+        "median": 25362.0,
+        "min": 25235,
+        "max": 25432
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 4,
+        "median": 42010.0,
+        "min": 41884,
+        "max": 42172
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 4,
+        "median": 27.067,
+        "min": 23.897,
+        "max": 28.895
+      },
+      "transfer.relay.pss_kib": {
+        "n": 4,
+        "median": 4644.5,
+        "min": 4129,
+        "max": 4750
+      },
+      "transfer.relay.rss_kib": {
+        "n": 4,
+        "median": 11698.0,
+        "min": 11200,
+        "max": 11888
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 4,
+        "median": 89.647,
+        "min": 87.485,
+        "max": 98.868
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 4,
+        "median": 76355.0,
+        "min": 76238,
+        "max": 76402
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 4,
+        "median": 126540.0,
+        "min": 126436,
+        "max": 126608
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 4,
+        "median": 155.836,
+        "min": 146.506,
+        "max": 158.15
+      }
+    },
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 2,
+        "median": 25364.0,
+        "min": 25350,
+        "max": 25378
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 2,
+        "median": 42116.0,
+        "min": 42096,
+        "max": 42136
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 2,
+        "median": 21.449,
+        "min": 20.972,
+        "max": 21.927
+      },
+      "transfer.relay.pss_kib": {
+        "n": 2,
+        "median": 4550.5,
+        "min": 4380,
+        "max": 4721
+      },
+      "transfer.relay.rss_kib": {
+        "n": 2,
+        "median": 11672.0,
+        "min": 11448,
+        "max": 11896
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 2,
+        "median": 90.668,
+        "min": 89.547,
+        "max": 91.789
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 2,
+        "median": 76415.5,
+        "min": 76413,
+        "max": 76418
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 2,
+        "median": 126390.0,
+        "min": 126312,
+        "max": 126468
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 2,
+        "median": 155.058,
+        "min": 154.005,
+        "max": 156.111
+      },
+      "slowest_first_object_ms": {
+        "n": 2,
+        "median": 12.247,
+        "min": 12.142,
+        "max": 12.352
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 2,
+        "median": 11.152,
+        "min": 11.083,
+        "max": 11.221
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 2,
+        "median": 0.163,
+        "min": 0.162,
+        "max": 0.164
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 2,
+        "median": 0.905,
+        "min": 0.853,
+        "max": 0.957
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 10.172,
+        "min": 9.561,
+        "max": 10.428
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 0.208,
+        "min": 0.173,
+        "max": 0.282
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 6,
+        "median": 4.369,
+        "min": 3.788,
+        "max": 4.994
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 6,
+        "median": 1404.272,
+        "min": 1403.519,
+        "max": 1404.741
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 2,
+        "median": 1012057.5,
+        "min": 1012030,
+        "max": 1012085
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 2,
+        "median": 10904.0,
+        "min": 10904,
+        "max": 10904
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 2,
+        "median": 161.5,
+        "min": 161,
+        "max": 162
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 2,
+        "median": 142.0,
+        "min": 142,
+        "max": 142
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 2,
+        "median": 37277.0,
+        "min": 36744,
+        "max": 37810
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 2,
+        "median": 3040559.5,
+        "min": 3040257,
+        "max": 3040862
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 2,
+        "median": 517.5,
+        "min": 507,
+        "max": 528
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 2,
+        "median": 2246.5,
+        "min": 2241,
+        "max": 2252
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 2,
+        "median": 3051463.5,
+        "min": 3051161,
+        "max": 3051766
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 2,
+        "median": 2388.5,
+        "min": 2383,
+        "max": 2394
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 2,
+        "median": 1049334.5,
+        "min": 1048829,
+        "max": 1049840
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 2,
+        "median": 679.0,
+        "min": 669,
+        "max": 689
+      }
+    }
+  },
+  {
+    "relay": "moqtail",
+    "subscribers": 3,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 2160,
+    "objects_expected": 2160,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 22754.5,
+        "min": 22729,
+        "max": 22946
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35426.0,
+        "min": 35384,
+        "max": 35596
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 10100.5,
+        "min": 10052,
+        "max": 10331
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 12324.0,
+        "min": 12248,
+        "max": 12540
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 68297.5,
+        "min": 68185,
+        "max": 68439
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 106404.0,
+        "min": 106248,
+        "max": 106548
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 25141.0,
+        "min": 25085,
+        "max": 25420
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41720.0,
+        "min": 41624,
+        "max": 41944
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 2.386,
+        "min": 1.786,
+        "max": 3.124
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 14868.5,
+        "min": 14635,
+        "max": 15194
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 17072.0,
+        "min": 16848,
+        "max": 17448
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 75390.0,
+        "min": 75187,
+        "max": 75563
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 125080.0,
+        "min": 124876,
+        "max": 125428
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 8.042,
+        "min": 7.157,
+        "max": 9.949
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 25661.0,
+        "min": 25601,
+        "max": 29954
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 42240.0,
+        "min": 42140,
+        "max": 46476
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 25.628,
+        "min": 22.065,
+        "max": 32.694
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 16161.0,
+        "min": 16063,
+        "max": 16286
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 18364.0,
+        "min": 18276,
+        "max": 18540
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 52.187,
+        "min": 51.071,
+        "max": 59.751
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 76311.5,
+        "min": 76110,
+        "max": 76487
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 126142.0,
+        "min": 125868,
+        "max": 126488
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 67.72,
+        "min": 64.137,
+        "max": 73.263
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 12.37,
+        "min": 10.218,
+        "max": 13.749
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 11.721,
+        "min": 11.238,
+        "max": 12.842
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.618,
+        "min": 1.262,
+        "max": 2.426
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 0.493,
+        "min": 0.399,
+        "max": 0.674
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 18,
+        "median": 13.951,
+        "min": 10.35,
+        "max": 17.148
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 18,
+        "median": 2.181,
+        "min": 0.556,
+        "max": 8.007
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 18,
+        "median": 3.937,
+        "min": 0.555,
+        "max": 5.12
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 18,
+        "median": 1412.46,
+        "min": 1406.129,
+        "max": 1421.437
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1012082.5,
+        "min": 1011668,
+        "max": 1012235
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 12316.0,
+        "min": 12019,
+        "max": 12753
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 276.0,
+        "min": 233,
+        "max": 513
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 147.5,
+        "min": 139,
+        "max": 159
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 30243.5,
+        "min": 30026,
+        "max": 30467
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 3045167.0,
+        "min": 3045123,
+        "max": 3045259
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 391.5,
+        "min": 387,
+        "max": 395
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 397.0,
+        "min": 395,
+        "max": 399
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 3057486.5,
+        "min": 3057144,
+        "max": 3057918
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 544.0,
+        "min": 534,
+        "max": 556
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1042191.5,
+        "min": 1041931,
+        "max": 1042662
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 667.0,
+        "min": 622,
+        "max": 905
+      }
+    }
+  },
+  {
+    "relay": "aiomoqt",
+    "subscribers": 4,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 2880,
+    "objects_expected": 2880,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 22434.5,
+        "min": 22414,
+        "max": 22502
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35430.0,
+        "min": 35408,
+        "max": 35660
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 26512.5,
+        "min": 26493,
+        "max": 26830
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 38102.0,
+        "min": 38060,
+        "max": 38432
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.043,
+        "min": 2.482,
+        "max": 3.203
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 89748.0,
+        "min": 89626,
+        "max": 89780
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 141908.0,
+        "min": 141300,
+        "max": 142028
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 24515.5,
+        "min": 24452,
+        "max": 26488
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41926.0,
+        "min": 41764,
+        "max": 43768
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.108,
+        "min": 2.192,
+        "max": 3.24
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 24346.0,
+        "min": 24330,
+        "max": 24462
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 38832.0,
+        "min": 38780,
+        "max": 39312
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 2.995,
+        "min": 2.648,
+        "max": 3.222
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 97852.5,
+        "min": 97677,
+        "max": 97929
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 167040.0,
+        "min": 166648,
+        "max": 167424
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 12.605,
+        "min": 10.399,
+        "max": 13.444
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 24662.5,
+        "min": 24593,
+        "max": 26635
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 42074.0,
+        "min": 41908,
+        "max": 43916
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 25.603,
+        "min": 22.215,
+        "max": 26.176
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 26771.0,
+        "min": 26518,
+        "max": 26854
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 41372.0,
+        "min": 41068,
+        "max": 41812
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 71.331,
+        "min": 68.13,
+        "max": 83.715
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 99023.0,
+        "min": 98884,
+        "max": 99140
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 168464.0,
+        "min": 168140,
+        "max": 168808
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 119.111,
+        "min": 107.727,
+        "max": 133.575
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 13.679,
+        "min": 11.685,
+        "max": 14.538
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 9.565,
+        "min": 7.878,
+        "max": 10.309
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 1.719,
+        "min": 1.588,
+        "max": 2.172
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 1.068,
+        "min": 0.622,
+        "max": 1.304
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 24,
+        "median": 10.128,
+        "min": 7.344,
+        "max": 11.494
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 24,
+        "median": 1.78,
+        "min": 0.726,
+        "max": 2.795
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 24,
+        "median": 5.701,
+        "min": 3.962,
+        "max": 7.856
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 24,
+        "median": 1414.997,
+        "min": 1404.33,
+        "max": 1420.539
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1011811.5,
+        "min": 1011778,
+        "max": 1011930
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 10953.0,
+        "min": 10898,
+        "max": 11503
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 287.0,
+        "min": 225,
+        "max": 335
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 147.0,
+        "min": 146,
+        "max": 157
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 44638.0,
+        "min": 42378,
+        "max": 45008
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 4047460.0,
+        "min": 4047381,
+        "max": 4047927
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 598.0,
+        "min": 558,
+        "max": 605
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 1019.0,
+        "min": 702,
+        "max": 1360
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 4058485.5,
+        "min": 4058283,
+        "max": 4059074
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 1167.0,
+        "min": 848,
+        "max": 1517
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1056463.0,
+        "min": 1054204,
+        "max": 1056788
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 889.0,
+        "min": 827,
+        "max": 931
+      }
+    }
+  },
+  {
+    "relay": "imquic",
+    "subscribers": 4,
+    "passed": 2,
+    "trials": 6,
+    "objects_received": 2864,
+    "objects_expected": 2880,
+    "missing_locations": {
+      "3.29": 16
+    },
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 22570.5,
+        "min": 22451,
+        "max": 22633
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35492.0,
+        "min": 35412,
+        "max": 35644
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 2994.5,
+        "min": 2969,
+        "max": 3034
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 10008.0,
+        "min": 9936,
+        "max": 10140
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.35,
+        "min": 0.322,
+        "max": 0.386
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 90291.5,
+        "min": 90011,
+        "max": 90390
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 141826.0,
+        "min": 141544,
+        "max": 141956
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 24749.0,
+        "min": 24618,
+        "max": 24799
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41800.0,
+        "min": 41720,
+        "max": 42104
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.023,
+        "min": 2.149,
+        "max": 3.553
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 3680.5,
+        "min": 3614,
+        "max": 3750
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 10846.0,
+        "min": 10788,
+        "max": 10904
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.333,
+        "min": 0.312,
+        "max": 0.427
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 98846.0,
+        "min": 98600,
+        "max": 98957
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 166958.0,
+        "min": 166716,
+        "max": 167328
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 12.084,
+        "min": 9.735,
+        "max": 13.791
+      }
+    },
+    "incomplete_transfer": {
+      "transfer.publisher.pss_kib": {
+        "n": 4,
+        "median": 24889.5,
+        "min": 24769,
+        "max": 24949
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 4,
+        "median": 41952.0,
+        "min": 41888,
+        "max": 42152
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 4,
+        "median": 24.822,
+        "min": 23.902,
+        "max": 27.535
+      },
+      "transfer.relay.pss_kib": {
+        "n": 4,
+        "median": 4679.5,
+        "min": 4398,
+        "max": 4760
+      },
+      "transfer.relay.rss_kib": {
+        "n": 4,
+        "median": 11898.0,
+        "min": 11484,
+        "max": 11932
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 4,
+        "median": 99.849,
+        "min": 95.186,
+        "max": 100.783
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 4,
+        "median": 100135.0,
+        "min": 99887,
+        "max": 100246
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 4,
+        "median": 168524.0,
+        "min": 168180,
+        "max": 168792
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 4,
+        "median": 225.577,
+        "min": 220.413,
+        "max": 240.858
+      }
+    },
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 2,
+        "median": 24913.0,
+        "min": 24871,
+        "max": 24955
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 2,
+        "median": 42068.0,
+        "min": 41876,
+        "max": 42260
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 2,
+        "median": 22.47,
+        "min": 21.665,
+        "max": 23.276
+      },
+      "transfer.relay.pss_kib": {
+        "n": 2,
+        "median": 4466.0,
+        "min": 4348,
+        "max": 4584
+      },
+      "transfer.relay.rss_kib": {
+        "n": 2,
+        "median": 11612.0,
+        "min": 11508,
+        "max": 11716
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 2,
+        "median": 99.674,
+        "min": 97.222,
+        "max": 102.127
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 2,
+        "median": 100146.0,
+        "min": 100144,
+        "max": 100148
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 2,
+        "median": 168348.0,
+        "min": 168268,
+        "max": 168428
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 2,
+        "median": 218.754,
+        "min": 218.045,
+        "max": 219.463
+      },
+      "slowest_first_object_ms": {
+        "n": 2,
+        "median": 12.642,
+        "min": 12.188,
+        "max": 13.096
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 2,
+        "median": 10.565,
+        "min": 10.405,
+        "max": 10.726
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 2,
+        "median": 0.191,
+        "min": 0.165,
+        "max": 0.217
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 2,
+        "median": 0.853,
+        "min": 0.799,
+        "max": 0.907
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 8,
+        "median": 9.519,
+        "min": 6.491,
+        "max": 12.197
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 8,
+        "median": 0.221,
+        "min": 0.159,
+        "max": 0.43
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 8,
+        "median": 3.852,
+        "min": 2.834,
+        "max": 4.989
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 8,
+        "median": 1408.114,
+        "min": 1401.778,
+        "max": 1410.845
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 2,
+        "median": 1012058.0,
+        "min": 1012030,
+        "max": 1012086
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 2,
+        "median": 11206.5,
+        "min": 10904,
+        "max": 11509
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 2,
+        "median": 172.0,
+        "min": 161,
+        "max": 183
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 2,
+        "median": 147.5,
+        "min": 142,
+        "max": 153
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 2,
+        "median": 49494.5,
+        "min": 49226,
+        "max": 49763
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 2,
+        "median": 4054473.5,
+        "min": 4054428,
+        "max": 4054519
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 2,
+        "median": 686.5,
+        "min": 682,
+        "max": 691
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 2,
+        "median": 3002.5,
+        "min": 3001,
+        "max": 3004
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 2,
+        "median": 4065680.0,
+        "min": 4065423,
+        "max": 4065937
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 2,
+        "median": 3150.0,
+        "min": 3143,
+        "max": 3157
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 2,
+        "median": 1061552.5,
+        "min": 1061312,
+        "max": 1061793
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 2,
+        "median": 858.5,
+        "min": 852,
+        "max": 865
+      }
+    }
+  },
+  {
+    "relay": "moqtail",
+    "subscribers": 4,
+    "passed": 6,
+    "trials": 6,
+    "objects_received": 2880,
+    "objects_expected": 2880,
+    "missing_locations": {},
+    "pretransfer": {
+      "disconnected.publisher.pss_kib": {
+        "n": 6,
+        "median": 22544.5,
+        "min": 22537,
+        "max": 22607
+      },
+      "disconnected.publisher.rss_kib": {
+        "n": 6,
+        "median": 35432.0,
+        "min": 35360,
+        "max": 35572
+      },
+      "disconnected.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.relay.pss_kib": {
+        "n": 6,
+        "median": 10202.0,
+        "min": 9998,
+        "max": 10358
+      },
+      "disconnected.relay.rss_kib": {
+        "n": 6,
+        "median": 12398.0,
+        "min": 12288,
+        "max": 12636
+      },
+      "disconnected.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "disconnected.subscriber.pss_kib": {
+        "n": 6,
+        "median": 90385.0,
+        "min": 90155,
+        "max": 90550
+      },
+      "disconnected.subscriber.rss_kib": {
+        "n": 6,
+        "median": 142014.0,
+        "min": 141732,
+        "max": 142168
+      },
+      "disconnected.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.publisher.pss_kib": {
+        "n": 6,
+        "median": 24689.0,
+        "min": 24664,
+        "max": 24816
+      },
+      "subscribed.publisher.rss_kib": {
+        "n": 6,
+        "median": 41686.0,
+        "min": 41604,
+        "max": 41992
+      },
+      "subscribed.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.154,
+        "min": 2.482,
+        "max": 3.185
+      },
+      "subscribed.relay.pss_kib": {
+        "n": 6,
+        "median": 15897.0,
+        "min": 15501,
+        "max": 15998
+      },
+      "subscribed.relay.rss_kib": {
+        "n": 6,
+        "median": 18148.0,
+        "min": 17648,
+        "max": 18288
+      },
+      "subscribed.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "subscribed.subscriber.pss_kib": {
+        "n": 6,
+        "median": 98978.5,
+        "min": 98694,
+        "max": 99120
+      },
+      "subscribed.subscriber.rss_kib": {
+        "n": 6,
+        "median": 166912.0,
+        "min": 166728,
+        "max": 167196
+      },
+      "subscribed.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 13.068,
+        "min": 10.233,
+        "max": 13.761
+      }
+    },
+    "incomplete_transfer": {},
+    "successful_trials": {
+      "transfer.publisher.pss_kib": {
+        "n": 6,
+        "median": 25204.5,
+        "min": 25193,
+        "max": 29176
+      },
+      "transfer.publisher.rss_kib": {
+        "n": 6,
+        "median": 42208.0,
+        "min": 42124,
+        "max": 46180
+      },
+      "transfer.publisher.cpu_ms_per_s": {
+        "n": 6,
+        "median": 26.871,
+        "min": 22.201,
+        "max": 31.534
+      },
+      "transfer.relay.pss_kib": {
+        "n": 6,
+        "median": 17041.0,
+        "min": 16857,
+        "max": 17156
+      },
+      "transfer.relay.rss_kib": {
+        "n": 6,
+        "median": 19292.0,
+        "min": 19004,
+        "max": 19436
+      },
+      "transfer.relay.cpu_ms_per_s": {
+        "n": 6,
+        "median": 63.232,
+        "min": 59.91,
+        "max": 68.636
+      },
+      "transfer.subscriber.pss_kib": {
+        "n": 6,
+        "median": 100181.0,
+        "min": 99890,
+        "max": 100340
+      },
+      "transfer.subscriber.rss_kib": {
+        "n": 6,
+        "median": 168256.0,
+        "min": 168100,
+        "max": 168556
+      },
+      "transfer.subscriber.cpu_ms_per_s": {
+        "n": 6,
+        "median": 95.296,
+        "min": 92.52,
+        "max": 96.33
+      },
+      "slowest_first_object_ms": {
+        "n": 6,
+        "median": 14.513,
+        "min": 11.142,
+        "max": 15.463
+      },
+      "startup.publisher.connect_start_to_quic_connected_ms": {
+        "n": 6,
+        "median": 11.397,
+        "min": 10.418,
+        "max": 12.211
+      },
+      "startup.publisher.quic_connected_to_setup_done_ms": {
+        "n": 6,
+        "median": 2.438,
+        "min": 1.561,
+        "max": 3.953
+      },
+      "startup.publisher.setup_done_to_published_ms": {
+        "n": 6,
+        "median": 0.535,
+        "min": 0.453,
+        "max": 0.699
+      },
+      "startup.subscriber.connect_start_to_quic_connected_ms": {
+        "n": 24,
+        "median": 16.15,
+        "min": 9.408,
+        "max": 18.974
+      },
+      "startup.subscriber.quic_connected_to_setup_done_ms": {
+        "n": 24,
+        "median": 2.903,
+        "min": 0.675,
+        "max": 8.503
+      },
+      "startup.subscriber.setup_done_to_subscribed_ms": {
+        "n": 24,
+        "median": 4.016,
+        "min": 0.605,
+        "max": 7.817
+      },
+      "startup.subscriber.connect_start_to_first_object_ms": {
+        "n": 24,
+        "median": 1424.449,
+        "min": 1417.018,
+        "max": 1428.929
+      },
+      "wire.publisher.tx_udp_bytes": {
+        "n": 6,
+        "median": 1011816.5,
+        "min": 1011675,
+        "max": 1012017
+      },
+      "wire.publisher.rx_udp_bytes": {
+        "n": 6,
+        "median": 12404.5,
+        "min": 11941,
+        "max": 12609
+      },
+      "wire.publisher.tx_datagrams": {
+        "n": 6,
+        "median": 318.5,
+        "min": 230,
+        "max": 517
+      },
+      "wire.publisher.rx_datagrams": {
+        "n": 6,
+        "median": 150.0,
+        "min": 137,
+        "max": 155
+      },
+      "wire.subscriber.tx_udp_bytes": {
+        "n": 6,
+        "median": 40288.0,
+        "min": 40115,
+        "max": 40499
+      },
+      "wire.subscriber.rx_udp_bytes": {
+        "n": 6,
+        "median": 4060211.5,
+        "min": 4060162,
+        "max": 4060303
+      },
+      "wire.subscriber.tx_datagrams": {
+        "n": 6,
+        "median": 521.5,
+        "min": 518,
+        "max": 525
+      },
+      "wire.subscriber.rx_datagrams": {
+        "n": 6,
+        "median": 528.5,
+        "min": 527,
+        "max": 531
+      },
+      "wire.relay.tx_udp_bytes": {
+        "n": 6,
+        "median": 4072662.5,
+        "min": 4072136,
+        "max": 4072771
+      },
+      "wire.relay.tx_datagrams": {
+        "n": 6,
+        "median": 680.0,
+        "min": 665,
+        "max": 683
+      },
+      "wire.relay.rx_udp_bytes": {
+        "n": 6,
+        "median": 1052104.5,
+        "min": 1051790,
+        "max": 1052516
+      },
+      "wire.relay.rx_datagrams": {
+        "n": 6,
+        "median": 840.0,
+        "min": 751,
+        "max": 1035
+      }
+    }
+  }
+]

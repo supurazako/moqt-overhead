@@ -1,0 +1,768 @@
+{
+  "trials": 36,
+  "failed_cases": [],
+  "groups": {
+    "publisher/moqtail/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 5903.5,
+        "minimum": 5786,
+        "maximum": 6006
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 5903.5,
+        "minimum": 5786,
+        "maximum": 6006
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 5903.5,
+        "minimum": 5786,
+        "maximum": 6006
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 8044.0,
+        "minimum": 7868,
+        "maximum": 8160
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 18.0,
+        "minimum": 18,
+        "maximum": 18
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.03720542753998587,
+        "minimum": 0.020829054177966978,
+        "maximum": 0.0957759073513686
+      }
+    },
+    "publisher/moqtail/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 5903.5,
+        "minimum": 5785,
+        "maximum": 6006
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 6204.5,
+        "minimum": 5996,
+        "maximum": 6213
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 6204.5,
+        "minimum": 5996,
+        "maximum": 6213
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 8302.0,
+        "minimum": 8064,
+        "maximum": 8436
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 18.0,
+        "minimum": 18,
+        "maximum": 18
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 2.4836315003176197,
+        "minimum": 2.111263222197375,
+        "maximum": 3.0075901658615134
+      }
+    },
+    "publisher/imquic/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 3629.0,
+        "minimum": 3608,
+        "maximum": 3722
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 3629.0,
+        "minimum": 3608,
+        "maximum": 3722
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 3629.0,
+        "minimum": 3608,
+        "maximum": 3722
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 10744.0,
+        "minimum": 10684,
+        "maximum": 10896
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 2.0,
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.46673575709917403,
+        "minimum": 0.2869219821958246,
+        "maximum": 1.1561895889207585
+      }
+    },
+    "publisher/imquic/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 3629.0,
+        "minimum": 3608,
+        "maximum": 3722
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 3720.0,
+        "minimum": 3682,
+        "maximum": 3755
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 3720.0,
+        "minimum": 3705,
+        "maximum": 3755
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 10874.0,
+        "minimum": 10844,
+        "maximum": 10992
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 3.0,
+        "minimum": 3,
+        "maximum": 3
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 3.7182611006873323,
+        "minimum": 3.540652272399957,
+        "maximum": 4.056815307691303
+      }
+    },
+    "publisher/aiomoqt/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 27227.0,
+        "minimum": 27131,
+        "maximum": 27477
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 27177.5,
+        "minimum": 27124,
+        "maximum": 27477
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 27227.0,
+        "minimum": 27131,
+        "maximum": 27477
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 41758.0,
+        "minimum": 41664,
+        "maximum": 42088
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 2.0,
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 2.947705241694619,
+        "minimum": 2.876577099631157,
+        "maximum": 3.3802472623281643
+      }
+    },
+    "publisher/aiomoqt/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 27213.5,
+        "minimum": 27125,
+        "maximum": 27471
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 26055.0,
+        "minimum": 25965,
+        "maximum": 26312
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 27192.5,
+        "minimum": 27104,
+        "maximum": 27450
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 41846.0,
+        "minimum": 41752,
+        "maximum": 42176
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 2.0,
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 6.8301795069157585,
+        "minimum": 5.928988198691423,
+        "maximum": 6.934404412548426
+      }
+    },
+    "subscriber/moqtail/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 6017.0,
+        "minimum": 5977,
+        "maximum": 6105
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 6016.5,
+        "minimum": 5977,
+        "maximum": 6105
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 6017.0,
+        "minimum": 5977,
+        "maximum": 6105
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 8164.0,
+        "minimum": 7988,
+        "maximum": 8184
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 18.0,
+        "minimum": 18,
+        "maximum": 18
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.026548769323899588,
+        "minimum": 0.02386478147491607,
+        "maximum": 0.046751201634141246
+      }
+    },
+    "subscriber/moqtail/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 6016.5,
+        "minimum": 5977,
+        "maximum": 6105
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 6141.5,
+        "minimum": 6085,
+        "maximum": 6277
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 6141.5,
+        "minimum": 6085,
+        "maximum": 6277
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 8292.0,
+        "minimum": 8096,
+        "maximum": 8380
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 18.0,
+        "minimum": 18,
+        "maximum": 18
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 2.3732810572039815,
+        "minimum": 2.3118803480041827,
+        "maximum": 2.576038263199625
+      }
+    },
+    "subscriber/imquic/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 3654.5,
+        "minimum": 3602,
+        "maximum": 3699
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 3654.5,
+        "minimum": 3602,
+        "maximum": 3699
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 3654.5,
+        "minimum": 3602,
+        "maximum": 3699
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 10918.0,
+        "minimum": 10552,
+        "maximum": 10936
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 2.0,
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 0.6118177490206711,
+        "minimum": 0.2687112592216116,
+        "maximum": 1.2925593424748767
+      }
+    },
+    "subscriber/imquic/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 3654.5,
+        "minimum": 3602,
+        "maximum": 3699
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 3708.0,
+        "minimum": 3602,
+        "maximum": 3763
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 3708.0,
+        "minimum": 3602,
+        "maximum": 3763
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 10982.0,
+        "minimum": 10552,
+        "maximum": 11000
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 2.0,
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 13.994744217580198,
+        "minimum": 13.294734842208431,
+        "maximum": 15.622582091458113
+      }
+    },
+    "subscriber/aiomoqt/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 25986.0,
+        "minimum": 25962,
+        "maximum": 26057
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 25986.0,
+        "minimum": 25962,
+        "maximum": 26057
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 25986.0,
+        "minimum": 25962,
+        "maximum": 26057
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 41868.0,
+        "minimum": 41760,
+        "maximum": 41936
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 2.0,
+        "minimum": 2,
+        "maximum": 2
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 2.866225889330834,
+        "minimum": 2.8302762902543326,
+        "maximum": 3.120599108931611
+      }
+    },
+    "subscriber/aiomoqt/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": 25986.0,
+        "minimum": 25962,
+        "maximum": 26057
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": 26079.0,
+        "minimum": 26055,
+        "maximum": 26148
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": 26079.0,
+        "minimum": 26055,
+        "maximum": 26148
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": 41974.0,
+        "minimum": 41864,
+        "maximum": 42040
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 3.0,
+        "minimum": 3,
+        "maximum": 3
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 6.994427590186357,
+        "minimum": 6.482882738703574,
+        "maximum": 7.179112799976054
+      }
+    }
+  },
+  "paired_differences": {
+    "publisher/imquic-aiomoqt/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -23573.5,
+        "minimum": -23843,
+        "maximum": -23418
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -23518.5,
+        "minimum": -23843,
+        "maximum": -23418
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -23573.5,
+        "minimum": -23843,
+        "maximum": -23418
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -31056.0,
+        "minimum": -31380,
+        "maximum": -30768
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": -2.5384911051477737,
+        "minimum": -2.8528003616652375,
+        "maximum": -1.8458691880728428
+      }
+    },
+    "publisher/moqtail-aiomoqt/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -21365.0,
+        "minimum": -21531,
+        "maximum": -21197
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -21305.0,
+        "minimum": -21531,
+        "maximum": -21197
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -21365.0,
+        "minimum": -21531,
+        "maximum": -21197
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -33792.0,
+        "minimum": -34040,
+        "maximum": -33528
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 16.0,
+        "minimum": 16,
+        "maximum": 16
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": -2.908576011467418,
+        "minimum": -3.3594182081501973,
+        "maximum": -2.8463101181878536
+      }
+    },
+    "publisher/imquic-aiomoqt/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -23559.5,
+        "minimum": -23837,
+        "maximum": -23412
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -22342.0,
+        "minimum": -22581,
+        "maximum": -22244
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -23462.5,
+        "minimum": -23719,
+        "maximum": -23386
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -30984.0,
+        "minimum": -31308,
+        "maximum": -30760
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 1.0,
+        "minimum": 1,
+        "maximum": 1
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": -3.1286253362097467,
+        "minimum": -3.190653418414532,
+        "maximum": -1.8721728910001199
+      }
+    },
+    "publisher/moqtail-aiomoqt/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -21346.5,
+        "minimum": -21526,
+        "maximum": -21191
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -19866.5,
+        "minimum": -20099,
+        "maximum": -19801
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -21006.0,
+        "minimum": -21237,
+        "maximum": -20894
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -33636.0,
+        "minimum": -33860,
+        "maximum": -33340
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 16.0,
+        "minimum": 16,
+        "maximum": 16
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": -4.138735637766469,
+        "minimum": -4.539672856749433,
+        "maximum": -3.817724976494048
+      }
+    },
+    "subscriber/imquic-aiomoqt/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -22355.5,
+        "minimum": -22369,
+        "maximum": -22263
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -22355.5,
+        "minimum": -22369,
+        "maximum": -22263
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -22355.5,
+        "minimum": -22369,
+        "maximum": -22263
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -30944.0,
+        "minimum": -31316,
+        "maximum": -30840
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 0.0,
+        "minimum": 0,
+        "maximum": 0
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": -2.2846121158821027,
+        "minimum": -2.8518878497099998,
+        "maximum": -1.5788732943081425
+      }
+    },
+    "subscriber/moqtail-aiomoqt/connected_idle": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -19973.5,
+        "minimum": -20024,
+        "maximum": -19920
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -19974.0,
+        "minimum": -20024,
+        "maximum": -19920
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -19973.5,
+        "minimum": -20024,
+        "maximum": -19920
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -33734.0,
+        "minimum": -33860,
+        "maximum": -33628
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 16.0,
+        "minimum": 16,
+        "maximum": 16
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": -2.841335478560966,
+        "minimum": -3.07384790729747,
+        "maximum": -2.8046719964789717
+      }
+    },
+    "subscriber/imquic-aiomoqt/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -22355.5,
+        "minimum": -22369,
+        "maximum": -22263
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -22382.5,
+        "minimum": -22466,
+        "maximum": -22292
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -22382.5,
+        "minimum": -22466,
+        "maximum": -22292
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -30984.0,
+        "minimum": -31424,
+        "maximum": -30880
+      },
+      "thread_count": {
+        "n": 6,
+        "median": -1.0,
+        "minimum": -1,
+        "maximum": -1
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": 7.24312768953285,
+        "minimum": 6.115622042232377,
+        "maximum": 8.654077228476524
+      }
+    },
+    "subscriber/moqtail-aiomoqt/transfer": {
+      "pss_start_kib": {
+        "n": 6,
+        "median": -19974.0,
+        "minimum": -20024,
+        "maximum": -19920
+      },
+      "pss_end_kib": {
+        "n": 6,
+        "median": -19914.0,
+        "minimum": -20005,
+        "maximum": -19855
+      },
+      "pss_max_kib": {
+        "n": 6,
+        "median": -19914.0,
+        "minimum": -20005,
+        "maximum": -19855
+      },
+      "rss_max_kib": {
+        "n": 6,
+        "median": -33686.0,
+        "minimum": -33872,
+        "maximum": -33576
+      },
+      "thread_count": {
+        "n": 6,
+        "median": 15.0,
+        "minimum": 15,
+        "maximum": 15
+      },
+      "cpu_ms_per_s": {
+        "n": 6,
+        "median": -4.537620918617142,
+        "minimum": -4.795664813415867,
+        "maximum": -4.143998142389611
+      }
+    }
+  }
+}

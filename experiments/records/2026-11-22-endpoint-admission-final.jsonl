@@ -1,0 +1,6 @@
+{"implementation": "imquic", "role": "publisher", "block": 1, "position": 1, "event": "completed", "passed": true, "objects": 50, "payload_bytes": 3200}
+{"implementation": "moqtail", "role": "publisher", "block": 1, "position": 2, "event": "completed", "passed": true, "objects": 50, "payload_bytes": 3200}
+{"implementation": "aiomoqt", "role": "publisher", "block": 1, "position": 3, "event": "completed", "passed": true, "objects": 50, "payload_bytes": 3200}
+{"implementation": "imquic", "role": "subscriber", "block": 1, "position": 1, "event": "completed", "passed": true, "objects": 50, "payload_bytes": 3200}
+{"implementation": "moqtail", "role": "subscriber", "block": 1, "position": 2, "event": "completed", "passed": true, "objects": 50, "payload_bytes": 3200}
+{"implementation": "aiomoqt", "role": "subscriber", "block": 1, "position": 3, "event": "completed", "passed": true, "objects": 50, "payload_bytes": 3200}
