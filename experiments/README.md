@@ -1,5 +1,8 @@
 # MoQT resource measurements
 
+This is an AI-powered research project. AI (OpenAI Codex) assisted with research,
+experiment planning, implementation, execution, analysis and documentation.
+
 Methods, adapters, observations and analysis for IETF MoQT draft-22 over raw QUIC.
 The study measures Linux processes: Publisher, Subscriber and Relay. These
 observations are not microcontroller RAM requirements.
